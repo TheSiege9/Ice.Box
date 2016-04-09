@@ -1,0 +1,1031 @@
+﻿Log file open, 04/09/16 13:01:37
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(77003171) SRandInit(77003172).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.066216
+LogInit: Version: 4.11.1-2934540+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr  6 2016 02:14:16
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.04.09-18.01.37:806][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.09-18.01.37:806][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.09-18.01.37:816][  0]LogInit: Computer: CURTIS-PC
+[2016.04.09-18.01.37:816][  0]LogInit: User: Curtis
+[2016.04.09-18.01.37:816][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.04.09-18.01.37:816][  0]LogInit: High frequency timer resolution =2.336201 MHz
+[2016.04.09-18.01.37:817][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.09-18.01.37:817][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.09-18.01.37:817][  0]LogMemory: Process Physical Memory: 314.45 MB used, 314.45 MB peak
+[2016.04.09-18.01.37:817][  0]LogMemory: Process Virtual Memory: 316.75 MB used, 316.75 MB peak
+[2016.04.09-18.01.37:817][  0]LogMemory: Physical Memory: 3134.77 MB used, 8139.82 MB total
+[2016.04.09-18.01.37:817][  0]LogMemory: Virtual Memory: 620.69 MB used, 8388608.00 MB total
+[2016.04.09-18.01.37:847][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.09-18.01.38:285][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.09-18.01.38:291][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6870M' (Feature Level 11_0)
+[2016.04.09-18.01.38:291][  0]LogD3D11RHI:       1010MB of dedicated video memory, 0MB of dedicated system memory, and 3813MB of shared system memory, 1 output[s]
+[2016.04.09-18.01.38:295][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
+[2016.04.09-18.01.38:295][  0]LogD3D11RHI:       64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.04.09-18.01.38:295][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.09-18.01.38:300][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.09-18.01.38:301][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6870M
+[2016.04.09-18.01.38:301][  0]LogD3D11RHI:   Driver Version: 9.3.0.0 (internal 9.3.0.0)
+[2016.04.09-18.01.38:301][  0]LogD3D11RHI:      Driver Date: 10-25-2012
+[2016.04.09-18.01.38:301][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
+[2016.04.09-18.01.38:307][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.04.09-18.01.38:318][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Intermediate/Shaders/WorkingDirectory/6416/).
+[2016.04.09-18.01.38:318][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Curtis/AppData/Local/Temp/UnrealShaderWorkingDir/78E8086A4E9EF43D754261A5689755C6/'.
+[2016.04.09-18.01.38:318][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.09-18.01.39:372][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.09-18.01.39:376][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.09-18.01.39:380][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.09-18.01.39:384][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.09-18.01.39:388][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.09-18.01.39:391][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.09-18.01.39:394][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.09-18.01.39:397][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.09-18.01.39:400][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.09-18.01.39:403][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.09-18.01.39:406][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.09-18.01.39:412][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.09-18.01.39:412][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.09-18.01.39:412][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.09-18.01.39:428][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.09-18.01.39:431][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.09-18.01.39:433][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.09-18.01.39:436][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.09-18.01.39:439][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.09-18.01.39:439][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.09-18.01.39:501][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.09-18.01.39:558][  0]LogDerivedDataCache: Loaded boot cache 0.06s 46MB C:/Users/Curtis/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.09-18.01.39:558][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Curtis/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.09-18.01.39:559][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.09-18.01.39:559][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.09-18.01.39:559][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.09-18.01.39:559][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.09-18.01.39:576][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.09-18.01.39:587][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Curtis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.09-18.01.39:781][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.09-18.01.39:782][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.04.09-18.01.39:813][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.09-18.01.39:958][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.09-18.01.39:958][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.09-18.01.39:958][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.04.09-18.01.40:212][  0]LogUObjectArray: 27678 objects as part of root set at end of initial load.
+[2016.04.09-18.01.40:212][  0]LogUObjectAllocator: 5591384 out of 0 bytes used by permanent object pool.
+[2016.04.09-18.01.40:212][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.04.09-18.01.40:217][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.09-18.01.40:291][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.09-18.01.40:291][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.09-18.01.40:390][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.09-18.01.40:390][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.09-18.01.40:390][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.09-18.01.40:390][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.09-18.01.40:390][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.09-18.01.40:390][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.09-18.01.40:945][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.09-18.01.41:041][  0]LogAssetRegistry: FAssetRegistry took 0.0200 seconds to start up
+[2016.04.09-18.01.41:227][  0]SourceControl: Info Source control is disabled
+[2016.04.09-18.01.41:273][  0]SourceControl: Info Source control is disabled
+[2016.04.09-18.01.41:279][  0]SourceControl: Info Source control is disabled
+[2016.04.09-18.01.41:285][  0]SourceControl: Info Source control is disabled
+[2016.04.09-18.01.41:437][  0]LogEngine: Initializing Engine...
+[2016.04.09-18.01.41:437][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.09-18.01.41:438][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.09-18.01.41:585][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.09-18.01.41:592][  0]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.09-18.01.41:625][  0]LogInit: FAudioDevice initialized.
+[2016.04.09-18.01.41:647][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Curtis/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.09-18.01.41:655][  0]LogInit: Texture streaming: Enabled
+[2016.04.09-18.01.41:673][  0]LogInit: Transaction tracking system initialized
+[2016.04.09-18.01.41:691][  0]BlueprintLog: New page: Editor Load
+[2016.04.09-18.01.41:756][  0]LocalizationService: Info Localization service is disabled
+[2016.04.09-18.01.41:814][  0]LogConsoleResponse:Display: 
+[2016.04.09-18.01.41:930][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.04.09-18.01.41:930][  0]LogCook:Display: Mobile HDR setting 1
+[2016.04.09-18.01.41:930][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.09-18.01.41:970][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/' took 0.02s
+[2016.04.09-18.01.41:970][  0]SourceControl: Info Source control is disabled
+[2016.04.09-18.01.41:971][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-18.01.41:971][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2016.04.09-18.01.41:971][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-18.01.42:004][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.768ms to complete.
+[2016.04.09-18.01.42:004][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.033
+[2016.04.09-18.01.42:130][  0]LogCollectionManager: Loaded 0 collections in 0.001564 seconds
+[2016.04.09-18.01.42:167][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Collections/' took 0.01s
+[2016.04.09-18.01.42:167][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/Developers/Curtis/Collections/' took 0.01s
+[2016.04.09-18.01.42:167][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/Collections/' took 0.01s
+[2016.04.09-18.01.42:167][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.04.09-18.01.42:174][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1979 classes and 343 folders.
+[2016.04.09-18.01.42:177][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.04.09-18.01.42:177][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.04.09-18.01.42:178][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.04.09-18.01.42:181][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.09-18.01.42:186][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.09-18.01.42:222][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.09-18.01.42:225][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.09-18.01.42:280][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.09-18.01.42:283][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.09-18.01.42:306][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.04.09-18.01.42:307][  0]LogLoad: Full Startup: 5.16 seconds (BP compile: 0.00 seconds)
+[2016.04.09-18.01.42:307][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.04.09-18.01.42:324][  0]LogOcInput: OculusInput pre-init called
+[2016.04.09-18.01.42:364][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.09-18.01.42:521][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:2).
+[2016.04.09-18.01.42:721][  1]LogAssetRegistry: Asset discovery search completed in 1.7004 seconds
+[2016.04.09-18.01.42:721][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.09-18.01.42:721][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2016.04.09-18.01.48:807][290]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
+[2016.04.09-18.02.02:765][920]BlueprintLog: New page: Compile LevelClear
+[2016.04.09-18.02.02:861][920]BlueprintEditorCompileResults: Info [0025.72] Compile of LevelClear successful! [in 95 ms]
+[2016.04.09-18.02.03:077][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/LevelClear" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/LevelClear.uasset" SILENT=true
+[2016.04.09-18.02.03:111][929]LogSavePackage: Save=16.68ms
+[2016.04.09-18.02.03:111][929]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/LevelClear4BECA31E4B5DC1A17AFCA0A035593A5D.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/LevelClear.uasset'
+[2016.04.09-18.02.03:115][929]LogSavePackage: Total save time: 36.06ms
+[2016.04.09-18.02.03:115][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/LevelClear.uasset
+[2016.04.09-18.02.07:014][119]LogAIModule: Creating AISystem for world Level1
+[2016.04.09-18.02.07:071][119]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-18.02.07:071][119]LightingResults: New page: Lighting Build
+[2016.04.09-18.02.07:074][119]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2016.04.09-18.02.07:103][119]LoadErrors: New page: Loading map: Level1.umap
+[2016.04.09-18.02.07:103][119]MapCheck: New page: Map Check
+[2016.04.09-18.02.07:103][119]LightingResults: New page: Lighting Build
+[2016.04.09-18.02.07:199][119]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-18.02.07:231][119]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-18.02.07:281][119]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.622ms to complete.
+[2016.04.09-18.02.07:282][119]LogFileHelpers: Loading map 'Level1' took 0.212
+[2016.04.09-18.02.09:794][219]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (cavesprite_0_Sprite)
+[2016.04.09-18.02.09:869][219]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2016.04.09-18.02.10:451][241]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2016.04.09-18.02.11:000][259]LogEditorViewport: Clicking on Actor (context menu): TriggerBox (TriggerBox)
+[2016.04.09-18.03.02:146][796]BlueprintLog: New page: Compile Level1
+[2016.04.09-18.03.02:223][796]BlueprintEditorCompileResults: Info [0085.08] Compile of Level1 successful! [in 76 ms]
+[2016.04.09-18.03.17:535][376]LogSavePackage: Save=189.58ms
+[2016.04.09-18.03.17:535][376]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel19CDE124D4A30EFB7BE992381ABFA3F0F.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-18.03.17:538][376]LogSavePackage: Total save time: 207.74ms
+[2016.04.09-18.03.17:538][376]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-18.06.03:359][592]BlueprintLog: New page: Compile Level1
+[2016.04.09-18.06.03:436][592]BlueprintEditorCompileResults: Info [0266.29] Compile of Level1 successful! [in 76 ms]
+[2016.04.09-18.12.07:496][279]LogSavePackage: Save=204.51ms
+[2016.04.09-18.12.07:496][279]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1_Auto1C418097D4BA3EF683CF4F699981DEF67.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto1.umap'
+[2016.04.09-18.12.07:499][279]LogSavePackage: Total save time: 223.59ms
+[2016.04.09-18.12.07:499][279]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto1.umap
+[2016.04.09-18.12.07:501][279]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level1' took 0.252
+[2016.04.09-18.12.07:501][279]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.252
+[2016.04.09-18.13.23:589][520]AssetReimport: New page: Outstanding source content changes 7:13:23 AM
+[2016.04.09-18.13.23:645][521]LogEditorFactories: Performing atomic reimport of [C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/SFX/Ice Box.wav]
+[2016.04.09-18.13.23:646][521]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/SFX/Ice Box.wav)
+[2016.04.09-18.13.23:791][521]LogEditorFactories: -- imported successfully
+[2016.04.09-18.13.23:952][522]LogAudioDerivedData:Display: Building compressed audio format OGG wave Ice_Box...
+[2016.04.09-18.13.27:243][522]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/2DSideScroller/SFX/Ice_Box.Ice_Box.
+[2016.04.09-18.13.27:288][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/SFX/Ice_Box" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/SFX/Ice_Box.uasset" SILENT=true
+[2016.04.09-18.13.27:344][522]LogSavePackage: Save=21.96ms
+[2016.04.09-18.13.27:344][522]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Ice_Box1661F684472F100646C906B7E2C495F0.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/SFX/Ice_Box.uasset'
+[2016.04.09-18.13.27:350][522]LogSavePackage: Total save time: 60.15ms
+[2016.04.09-18.13.27:350][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/SFX/Ice_Box.uasset
+[2016.04.09-18.13.30:377][635]AssetReimport: Info Reimported asset Ice_Box from C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/SFX/Ice Box.wav.
+[2016.04.09-18.13.33:996][725]LogSavePackage: Save=187.01ms
+[2016.04.09-18.13.33:996][725]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1B6ADB78145926145CDA226BC3F0803A2.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap'
+[2016.04.09-18.13.33:999][725]LogSavePackage: Total save time: 197.41ms
+[2016.04.09-18.13.33:999][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap
+[2016.04.09-18.13.34:028][725]LogFileHelpers: Saving map 'Level1' took 0.292
+[2016.04.09-18.13.34:034][725]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-18.13.34:034][725]LightingResults: New page: Lighting Build
+[2016.04.09-18.13.34:056][725]LoadErrors: New page: Loading map: Level1.umap
+[2016.04.09-18.13.34:058][725]MapCheck: New page: Map Check
+[2016.04.09-18.13.34:058][725]LightingResults: New page: Lighting Build
+[2016.04.09-18.13.34:120][725]LogAIModule: Creating AISystem for world Level1
+[2016.04.09-18.13.34:210][725]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-18.13.34:240][725]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-18.13.34:286][725]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.447ms to complete.
+[2016.04.09-18.13.34:287][725]LogFileHelpers: Loading map 'Level1' took 0.254
+[2016.04.09-18.13.36:949][829]LogAIModule: Creating AISystem for world TitleScreen
+[2016.04.09-18.13.36:971][829]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TitleScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-18.13.36:971][829]LightingResults: New page: Lighting Build
+[2016.04.09-18.13.36:991][829]LoadErrors: New page: Loading map: TitleScreen.umap
+[2016.04.09-18.13.36:993][829]MapCheck: New page: Map Check
+[2016.04.09-18.13.36:993][829]LightingResults: New page: Lighting Build
+[2016.04.09-18.13.37:101][829]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-18.13.37:132][829]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-18.13.37:179][829]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.409ms to complete.
+[2016.04.09-18.13.37:180][829]LogFileHelpers: Loading map 'TitleScreen' took 0.211
+[2016.04.09-18.13.38:226][875]LogSavePackage: Save=84.26ms
+[2016.04.09-18.13.38:226][875]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCTitleScreen3F51E71246B62E3EE30BF48138D9C2AF.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap'
+[2016.04.09-18.13.38:229][875]LogSavePackage: Total save time: 97.81ms
+[2016.04.09-18.13.38:229][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap
+[2016.04.09-18.16.39:296][374]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.04.09-18.16.39:424][374]BlueprintEditorCompileResults: Info [0902.27] Compile of 2DSideScrollerCharacter successful! [in 128 ms]
+[2016.04.09-18.16.40:186][394]LogSavePackage: Save=242.25ms
+[2016.04.09-18.16.40:188][394]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/2DSideScrollerCharacter31AF8D1F4C2B98485584DEBBCCE24C9D.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.04.09-18.16.40:203][394]LogSavePackage: Total save time: 275.79ms
+[2016.04.09-18.16.40:203][394]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.04.09-18.20.19:479][342]LogEditorTransaction: Undo Move Widget
+[2016.04.09-18.20.32:348][910]LogEditorTransaction: Undo Move Widget
+[2016.04.09-18.23.39:797][333]BlueprintLog: New page: Compile MainMenu
+[2016.04.09-18.23.39:943][333]BlueprintEditorCompileResults: Info [1322.78] Compile of MainMenu successful! [in 146 ms]
+[2016.04.09-18.23.40:273][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/MainMenu" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset" SILENT=true
+[2016.04.09-18.23.40:371][345]LogSavePackage: Save=79.57ms
+[2016.04.09-18.23.40:371][345]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenuF3F54D724EC776F246095598DB0A4CF6.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset'
+[2016.04.09-18.23.40:374][345]LogSavePackage: Total save time: 98.86ms
+[2016.04.09-18.23.40:374][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset
+[2016.04.09-18.24.22:134][207]LogEditorTransaction: Undo Resize Widget
+[2016.04.09-18.27.44:245][614]BlueprintLog: New page: Compile MainMenu
+[2016.04.09-18.27.44:367][614]BlueprintEditorCompileResults: Info [1567.20] Compile of MainMenu successful! [in 121 ms]
+[2016.04.09-18.27.44:916][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/MainMenu" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset" SILENT=true
+[2016.04.09-18.27.45:018][637]LogSavePackage: Save=92.36ms
+[2016.04.09-18.27.45:018][637]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenu56D5B8134A7AE77359F798A741429433.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset'
+[2016.04.09-18.27.45:021][637]LogSavePackage: Total save time: 102.33ms
+[2016.04.09-18.27.45:021][637]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset
+[2016.04.09-18.28.56:732][201]BlueprintLog: New page: Compile MainMenu
+[2016.04.09-18.28.56:843][201]BlueprintEditorCompileResults: Info [1639.67] Compile of MainMenu successful! [in 111 ms]
+[2016.04.09-18.28.57:373][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/MainMenu" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset" SILENT=true
+[2016.04.09-18.28.57:535][222]LogSavePackage: Save=130.83ms
+[2016.04.09-18.28.57:535][222]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenu5897ABB24281D53A6AC2D0B81B272D17.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset'
+[2016.04.09-18.28.57:540][222]LogSavePackage: Total save time: 161.85ms
+[2016.04.09-18.28.57:540][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset
+[2016.04.09-18.28.59:669][315]LogSavePackage: Save=91.93ms
+[2016.04.09-18.28.59:669][315]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCTitleScreen82DCB8424BA6D394616FB88286687D85.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap'
+[2016.04.09-18.28.59:672][315]LogSavePackage: Total save time: 122.43ms
+[2016.04.09-18.28.59:672][315]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap
+[2016.04.09-18.29.49:247][178]BlueprintLog: New page: Compile MainMenu
+[2016.04.09-18.29.49:370][178]BlueprintEditorCompileResults: Info [1692.20] Compile of MainMenu successful! [in 123 ms]
+[2016.04.09-18.29.49:624][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/MainMenu" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset" SILENT=true
+[2016.04.09-18.29.49:736][188]LogSavePackage: Save=98.49ms
+[2016.04.09-18.29.49:736][188]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenuF57CD6EA4111D631788343A5D8BA547B.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset'
+[2016.04.09-18.29.49:740][188]LogSavePackage: Total save time: 114.23ms
+[2016.04.09-18.29.49:740][188]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset
+[2016.04.09-18.29.52:026][288]LogSavePackage: Save=105.37ms
+[2016.04.09-18.29.52:026][288]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCTitleScreenD071CBBA4902C92579E250BA78724F31.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap'
+[2016.04.09-18.29.52:027][288]LogSavePackage: Total save time: 120.35ms
+[2016.04.09-18.29.52:027][288]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap
+[2016.04.09-18.30.26:088][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_251.EdGraphPin_32156''
+[2016.04.09-18.30.26:088][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3444.EdGraphPin_32067''
+[2016.04.09-18.30.26:089][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_252.EdGraphPin_32158''
+[2016.04.09-18.30.26:089][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3368.EdGraphPin_32313''
+[2016.04.09-18.30.26:090][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_281.EdGraphPin_32325''
+[2016.04.09-18.30.26:090][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3443.EdGraphPin_32327''
+[2016.04.09-18.30.26:090][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_282.EdGraphPin_32339''
+[2016.04.09-18.30.39:348][162]BlueprintLog: New page: Compile MainMenu
+[2016.04.09-18.30.39:466][162]BlueprintEditorCompileResults: Info [1742.30] Compile of MainMenu successful! [in 117 ms]
+[2016.04.09-18.30.40:021][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/MainMenu" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset" SILENT=true
+[2016.04.09-18.30.40:175][184]LogSavePackage: Save=124.09ms
+[2016.04.09-18.30.40:175][184]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenuC5F9BE3B4FEFFCC7C9D68C99547ABB31.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset'
+[2016.04.09-18.30.40:179][184]LogSavePackage: Total save time: 152.00ms
+[2016.04.09-18.30.40:179][184]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset
+[2016.04.09-18.30.46:992][494]LogSavePackage: Save=87.56ms
+[2016.04.09-18.30.46:992][494]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCTitleScreen4A9428A54DCA18825DADEB92D6E18822.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap'
+[2016.04.09-18.30.46:995][494]LogSavePackage: Total save time: 97.07ms
+[2016.04.09-18.30.46:995][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap
+[2016.04.09-18.31.20:735][502]LogSavePackage: Save=98.84ms
+[2016.04.09-18.31.20:735][502]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/TitleScreenFF381CD7437EBD3B46364DA2148E40C7.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TitleScreen.umap'
+[2016.04.09-18.31.20:738][502]LogSavePackage: Total save time: 113.65ms
+[2016.04.09-18.31.20:738][502]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TitleScreen.umap
+[2016.04.09-18.41.21:284][591]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/TitleScreen' took 0.032
+[2016.04.09-18.41.21:288][591]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/UI/MainMenu] ([1] browsable assets)...
+[2016.04.09-18.41.21:288][591]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/UI/MainMenu]
+[2016.04.09-18.41.21:428][591]LogSavePackage: Save=119.59ms
+[2016.04.09-18.41.21:428][591]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenu_Auto241FD3B3B4208D3C966133EAF9D114EA4.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/UI/MainMenu_Auto2.uasset'
+[2016.04.09-18.41.21:430][591]LogSavePackage: Total save time: 140.17ms
+[2016.04.09-18.41.21:430][591]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/UI/MainMenu_Auto2.uasset
+[2016.04.09-18.41.21:430][591]LogFileHelpers: Auto-saving content packages took 0.146
+[2016.04.09-19.02.36:371][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:372][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.02.36:372][634]LoadErrors:Error: Error /Game/2DSideScrollerBP/Maps/Level3 : Can't find file for asset. /Game/AddOns/2DSideScrollerCharacter
+[2016.04.09-19.02.36:372][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:372][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.02.36:372][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:372][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.02.36:373][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:373][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.02.36:373][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:373][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.02.36:373][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:373][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.02.36:375][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:375][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.02.36:376][634]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.02.36:377][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.02.36:377][634]LoadErrors:Error: Error /Game/2DSideScrollerBP/Maps/Level3 : Can't find file for asset. /Game/AddOns/Spikes_Sprite
+[2016.04.09-19.02.36:377][634]LogLinker:Warning: Can't find file '/Game/AddOns/Standalone_block_Sprite'
+[2016.04.09-19.02.36:377][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Standalone_block_Sprite' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.02.36:377][634]LoadErrors:Error: Error /Game/2DSideScrollerBP/Maps/Level3 : Can't find file for asset. /Game/AddOns/Standalone_block_Sprite
+[2016.04.09-19.02.36:377][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:377][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.02.36:378][634]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.02.36:378][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.02.36:378][634]LogLinker:Warning: Can't find file '/Game/AddOns/Standalone_block_Sprite'
+[2016.04.09-19.02.36:378][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Standalone_block_Sprite' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.02.36:378][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:379][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.02.36:379][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:379][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:379][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:379][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:380][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:380][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:380][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:380][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:381][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:381][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:381][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:381][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:381][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:381][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:381][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:381][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:382][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:382][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:382][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:382][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:383][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:383][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:383][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:383][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:398][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:398][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:398][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:398][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:399][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:400][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:400][634]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.02.36:400][634]LoadErrors: Info Failed to load /Game/AddOns/2DSideScrollerCharacter.2DSideScrollerCharacter_C Referenced by PersistentLevel
+[2016.04.09-19.02.36:400][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.02.36:403][634]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.02.36:403][634]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite2
+[2016.04.09-19.02.36:403][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.02.36:403][634]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.02.36:403][634]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite3
+[2016.04.09-19.02.36:404][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.02.36:404][634]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.02.36:404][634]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite4
+[2016.04.09-19.02.36:404][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.02.36:404][634]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.02.36:404][634]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite5
+[2016.04.09-19.02.36:404][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.02.36:404][634]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.02.36:404][634]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite6
+[2016.04.09-19.02.36:405][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.02.36:405][634]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.02.36:405][634]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite7
+[2016.04.09-19.02.36:405][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.02.36:405][634]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.02.36:405][634]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite8
+[2016.04.09-19.02.36:405][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.02.36:405][634]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.02.36:406][634]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite9
+[2016.04.09-19.02.36:406][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.02.36:406][634]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.02.36:406][634]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite_904
+[2016.04.09-19.02.36:406][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.02.36:406][634]LogLinker:Warning: Can't find file '/Game/AddOns/Standalone_block_Sprite'
+[2016.04.09-19.02.36:406][634]LoadErrors: Info Failed to load /Game/AddOns/Standalone_block_Sprite.Standalone_block_Sprite Referenced by Standalone_block_Sprite2_915
+[2016.04.09-19.02.36:406][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Standalone_block_Sprite' while loading NULL.
+[2016.04.09-19.02.36:407][634]LogLinker:Warning: Can't find file '/Game/AddOns/Standalone_block_Sprite'
+[2016.04.09-19.02.36:407][634]LoadErrors: Info Failed to load /Game/AddOns/Standalone_block_Sprite.Standalone_block_Sprite Referenced by Standalone_block_Sprite3
+[2016.04.09-19.02.36:407][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Standalone_block_Sprite' while loading NULL.
+[2016.04.09-19.02.36:407][634]LogLinker:Warning: Can't find file '/Game/AddOns/Standalone_block_Sprite'
+[2016.04.09-19.02.36:407][634]LoadErrors: Info Failed to load /Game/AddOns/Standalone_block_Sprite.Standalone_block_Sprite Referenced by Standalone_block_Sprite_898
+[2016.04.09-19.02.36:407][634]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Standalone_block_Sprite' while loading NULL.
+[2016.04.09-19.02.36:434][634]LogAIModule: Creating AISystem for world Level3
+[2016.04.09-19.02.38:209][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/MainMenu" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset" SILENT=true
+[2016.04.09-19.02.38:346][634]LogSavePackage: Save=118.41ms
+[2016.04.09-19.02.38:346][634]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenu0B9A15C44C92227938B3DE8964CA83E6.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset'
+[2016.04.09-19.02.38:350][634]LogSavePackage: Total save time: 138.89ms
+[2016.04.09-19.02.38:350][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset
+[2016.04.09-19.02.38:352][634]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-19.02.38:352][634]LightingResults: New page: Lighting Build
+[2016.04.09-19.02.38:371][634]LoadErrors: New page: Loading map: Level3.umap
+[2016.04.09-19.02.38:371][634]MapCheck: New page: Map Check
+[2016.04.09-19.02.38:371][634]LightingResults: New page: Lighting Build
+[2016.04.09-19.02.38:496][634]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-19.02.38:527][634]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-19.02.38:576][634]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.288ms to complete.
+[2016.04.09-19.02.38:576][634]LogFileHelpers: Loading map 'Level3' took 0.226
+[2016.04.09-19.02.38:586][634]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Arrow': 2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Level3.Level3:PersistentLevel.2DSideScrollerCharacter_1842
+[2016.04.09-19.02.38:587][634]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SideViewCameraComponent': 2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Level3.Level3:PersistentLevel.2DSideScrollerCharacter_1842
+[2016.04.09-19.02.38:587][634]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CollisionCylinder': 2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Level3.Level3:PersistentLevel.2DSideScrollerCharacter_1842
+[2016.04.09-19.02.38:587][634]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharMoveComp': 2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Level3.Level3:PersistentLevel.2DSideScrollerCharacter_1842
+[2016.04.09-19.02.38:587][634]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sprite0': 2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Level3.Level3:PersistentLevel.2DSideScrollerCharacter_1842
+[2016.04.09-19.02.38:587][634]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CameraBoom': 2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Level3.Level3:PersistentLevel.2DSideScrollerCharacter_1842
+[2016.04.09-19.03.22:537][553]LogAIModule: Creating AISystem for world Level2
+[2016.04.09-19.03.22:564][553]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-19.03.22:564][553]LightingResults: New page: Lighting Build
+[2016.04.09-19.03.22:582][553]LoadErrors: New page: Loading map: Level2.umap
+[2016.04.09-19.03.22:584][553]MapCheck: New page: Map Check
+[2016.04.09-19.03.22:584][553]LightingResults: New page: Lighting Build
+[2016.04.09-19.03.22:727][553]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-19.03.22:758][553]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-19.03.22:806][553]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.285ms to complete.
+[2016.04.09-19.03.22:807][553]LogFileHelpers: Loading map 'Level2' took 0.244
+[2016.04.09-19.04.08:786][508]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2016.04.09-19.04.09:471][535]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2016.04.09-19.04.09:949][554]LogEditorViewport: Clicking on Actor (context menu): TriggerBox (TriggerBox)
+[2016.04.09-19.04.23:070][228]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.09-19.04.48:511][401]BlueprintLog: New page: Compile Level2
+[2016.04.09-19.04.48:590][401]BlueprintEditorCompileResults: Info [3791.38] Compile of Level2 successful! [in 78 ms]
+[2016.04.09-19.04.52:476][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:476][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.04.52:476][567]LoadErrors:Error: Error /Game/2DSideScrollerBP/Maps/Level3 : Can't find file for asset. /Game/AddOns/2DSideScrollerCharacter
+[2016.04.09-19.04.52:476][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:476][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.04.52:477][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:477][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.04.52:477][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:477][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.04.52:477][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:477][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.04.52:477][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:477][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.04.52:479][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:479][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.04.52:479][567]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.04.52:479][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.04.52:479][567]LoadErrors:Error: Error /Game/2DSideScrollerBP/Maps/Level3 : Can't find file for asset. /Game/AddOns/Spikes_Sprite
+[2016.04.09-19.04.52:480][567]LogLinker:Warning: Can't find file '/Game/AddOns/Standalone_block_Sprite'
+[2016.04.09-19.04.52:480][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Standalone_block_Sprite' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.04.52:480][567]LoadErrors:Error: Error /Game/2DSideScrollerBP/Maps/Level3 : Can't find file for asset. /Game/AddOns/Standalone_block_Sprite
+[2016.04.09-19.04.52:480][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:480][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.04.52:481][567]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.04.52:481][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.04.52:481][567]LogLinker:Warning: Can't find file '/Game/AddOns/Standalone_block_Sprite'
+[2016.04.09-19.04.52:481][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Standalone_block_Sprite' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.04.52:481][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:482][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap.
+[2016.04.09-19.04.52:482][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:482][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:482][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:482][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:483][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:483][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:483][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:483][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:483][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:484][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:484][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:484][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:484][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:484][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:484][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:484][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:484][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:484][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:485][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:485][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:485][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:486][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:486][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:486][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:501][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:501][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:501][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:501][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:502][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:502][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:502][567]LogLinker:Warning: Can't find file '/Game/AddOns/2DSideScrollerCharacter'
+[2016.04.09-19.04.52:502][567]LoadErrors: Info Failed to load /Game/AddOns/2DSideScrollerCharacter.2DSideScrollerCharacter_C Referenced by PersistentLevel
+[2016.04.09-19.04.52:503][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/2DSideScrollerCharacter' while loading NULL.
+[2016.04.09-19.04.52:506][567]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.04.52:506][567]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite2
+[2016.04.09-19.04.52:506][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.04.52:506][567]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.04.52:506][567]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite3
+[2016.04.09-19.04.52:506][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.04.52:506][567]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.04.52:506][567]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite4
+[2016.04.09-19.04.52:507][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.04.52:507][567]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.04.52:507][567]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite5
+[2016.04.09-19.04.52:507][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.04.52:507][567]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.04.52:507][567]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite6
+[2016.04.09-19.04.52:507][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.04.52:507][567]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.04.52:507][567]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite7
+[2016.04.09-19.04.52:508][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.04.52:508][567]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.04.52:508][567]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite8
+[2016.04.09-19.04.52:508][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.04.52:508][567]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.04.52:508][567]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite9
+[2016.04.09-19.04.52:508][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.04.52:508][567]LogLinker:Warning: Can't find file '/Game/AddOns/Spikes_Sprite'
+[2016.04.09-19.04.52:509][567]LoadErrors: Info Failed to load /Game/AddOns/Spikes_Sprite.Spikes_Sprite Referenced by Spikes_Sprite_904
+[2016.04.09-19.04.52:509][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Spikes_Sprite' while loading NULL.
+[2016.04.09-19.04.52:509][567]LogLinker:Warning: Can't find file '/Game/AddOns/Standalone_block_Sprite'
+[2016.04.09-19.04.52:509][567]LoadErrors: Info Failed to load /Game/AddOns/Standalone_block_Sprite.Standalone_block_Sprite Referenced by Standalone_block_Sprite2_915
+[2016.04.09-19.04.52:509][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Standalone_block_Sprite' while loading NULL.
+[2016.04.09-19.04.52:509][567]LogLinker:Warning: Can't find file '/Game/AddOns/Standalone_block_Sprite'
+[2016.04.09-19.04.52:509][567]LoadErrors: Info Failed to load /Game/AddOns/Standalone_block_Sprite.Standalone_block_Sprite Referenced by Standalone_block_Sprite3
+[2016.04.09-19.04.52:509][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Standalone_block_Sprite' while loading NULL.
+[2016.04.09-19.04.52:510][567]LogLinker:Warning: Can't find file '/Game/AddOns/Standalone_block_Sprite'
+[2016.04.09-19.04.52:510][567]LoadErrors: Info Failed to load /Game/AddOns/Standalone_block_Sprite.Standalone_block_Sprite Referenced by Standalone_block_Sprite_898
+[2016.04.09-19.04.52:510][567]LogLinker:Warning: Can't find file for asset '/Game/AddOns/Standalone_block_Sprite' while loading NULL.
+[2016.04.09-19.04.52:515][567]LogAIModule: Creating AISystem for world Level3
+[2016.04.09-19.04.53:556][567]LogSavePackage: Save=186.86ms
+[2016.04.09-19.04.53:556][567]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level26099FD954B7BB3654E49B68BDCAEF083.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level2.umap'
+[2016.04.09-19.04.53:560][567]LogSavePackage: Total save time: 202.07ms
+[2016.04.09-19.04.53:560][567]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level2.umap
+[2016.04.09-19.04.53:589][567]LogFileHelpers: Saving map 'Level2' took 0.299
+[2016.04.09-19.04.53:590][567]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-19.04.53:591][567]LightingResults: New page: Lighting Build
+[2016.04.09-19.04.53:608][567]LoadErrors: New page: Loading map: Level3.umap
+[2016.04.09-19.04.53:610][567]MapCheck: New page: Map Check
+[2016.04.09-19.04.53:610][567]LightingResults: New page: Lighting Build
+[2016.04.09-19.04.53:774][567]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-19.04.53:804][567]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-19.04.53:853][567]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.996ms to complete.
+[2016.04.09-19.04.53:853][567]LogFileHelpers: Loading map 'Level3' took 0.264
+[2016.04.09-19.04.53:856][567]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Arrow': 2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Level3.Level3:PersistentLevel.2DSideScrollerCharacter_1842
+[2016.04.09-19.04.53:856][567]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SideViewCameraComponent': 2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Level3.Level3:PersistentLevel.2DSideScrollerCharacter_1842
+[2016.04.09-19.04.53:856][567]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CollisionCylinder': 2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Level3.Level3:PersistentLevel.2DSideScrollerCharacter_1842
+[2016.04.09-19.04.53:856][567]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharMoveComp': 2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Level3.Level3:PersistentLevel.2DSideScrollerCharacter_1842
+[2016.04.09-19.04.53:856][567]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sprite0': 2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Level3.Level3:PersistentLevel.2DSideScrollerCharacter_1842
+[2016.04.09-19.04.53:856][567]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CameraBoom': 2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Level3.Level3:PersistentLevel.2DSideScrollerCharacter_1842
+[2016.04.09-19.06.02:990][958]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0015 seconds. Added 15 classes and 2 folders.
+[2016.04.09-19.06.03:049][958]LogInit: Transaction tracking system initialized
+[2016.04.09-19.06.03:104][958]EditorErrors: New page: Matinee Initialization
+[2016.04.09-19.06.03:139][958]LogTexture:Display: Building textures: MAT_Groups_View_On (AutoDXT)
+[2016.04.09-19.06.03:169][958]LogTexture:Display: Building textures: MAT_Groups_View_Off (AutoDXT)
+[2016.04.09-19.06.03:177][958]LogTexture:Display: Building textures: MAT_Groups_Right_On (AutoDXT)
+[2016.04.09-19.06.03:184][958]LogTexture:Display: Building textures: MAT_Groups_Right_Off (AutoDXT)
+[2016.04.09-19.06.03:211][958]LogTexture:Display: Building textures: MAT_Groups_Left_On (AutoDXT)
+[2016.04.09-19.06.03:214][958]LogTexture:Display: Building textures: MAT_Groups_Left_Off (AutoDXT)
+[2016.04.09-19.06.03:218][958]LogTexture:Display: Building textures: CASC_ModuleEnable (AutoDXT)
+[2016.04.09-19.06.03:227][958]LogTexture:Display: Building textures: MAT_Groups_Graph_On (AutoDXT)
+[2016.04.09-19.06.03:229][958]LogTexture:Display: Building textures: MAT_Groups_Graph_Off (AutoDXT)
+[2016.04.09-19.06.03:321][958]LogTexture:Display: Building textures: MatineeGreyGrad (AutoDXT)
+[2016.04.09-19.07.15:929][512]BlueprintLog: New page: Compile Level3
+[2016.04.09-19.07.15:968][512]LogBlueprint:Error: [compiler Level3] Error The type of  Object  is undetermined.  Connect something to  Cast To MatineeActor  to imply a specific type.
+[2016.04.09-19.07.15:968][512]LogBlueprint:Error: [compiler Level3] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.04.09-19.07.16:123][512]LogTexture:Display: Building textures: BadBlueprintSprite (BGRA8)
+[2016.04.09-19.07.16:141][512]LogExit: Transaction tracking system shut down
+[2016.04.09-19.07.16:146][512]LogBlueprint:Warning: [compiler Level3] Warning [3938.94] Compile of Level3 failed. 2 Fatal Issue(s) 0 Warning(s) [in 216 ms]
+[2016.04.09-19.07.16:146][512]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To MatineeActor  to imply a specific type.
+[2016.04.09-19.07.16:146][512]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.04.09-19.07.16:146][512]BlueprintEditorCompileResults:Warning: Warning [3938.94] Compile of Level3 failed. 2 Fatal Issue(s) 0 Warning(s) [in 216 ms]
+[2016.04.09-19.07.16:147][512]BlueprintLog: New page: Compile Level3
+[2016.04.09-19.07.16:150][512]LogBlueprint:Error: [compiler Level3] Error The type of  Object  is undetermined.  Connect something to  Cast To MatineeActor  to imply a specific type.
+[2016.04.09-19.07.16:150][512]LogBlueprint:Error: [compiler Level3] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.04.09-19.07.16:277][512]LogBlueprint:Warning: [compiler Level3] Warning [3939.07] Compile of Level3 failed. 2 Fatal Issue(s) 0 Warning(s) [in 130 ms]
+[2016.04.09-19.07.16:277][512]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To MatineeActor  to imply a specific type.
+[2016.04.09-19.07.16:277][512]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.04.09-19.07.16:277][512]BlueprintEditorCompileResults:Warning: Warning [3939.07] Compile of Level3 failed. 2 Fatal Issue(s) 0 Warning(s) [in 130 ms]
+[2016.04.09-19.09.01:149][876]BlueprintLog: New page: Compile Level3
+[2016.04.09-19.09.01:227][876]BlueprintEditorCompileResults: Info [4044.02] Compile of Level3 successful! [in 77 ms]
+[2016.04.09-19.09.36:349][549]LogInit: Transaction tracking system initialized
+[2016.04.09-19.09.36:349][549]EditorErrors: New page: Matinee Initialization
+[2016.04.09-19.09.45:678][909]LogInit: Transaction tracking system initialized
+[2016.04.09-19.09.45:678][909]EditorErrors: New page: Matinee Initialization
+[2016.04.09-19.10.08:618][731]LogInit: Transaction tracking system initialized
+[2016.04.09-19.10.08:619][731]EditorErrors: New page: Matinee Initialization
+[2016.04.09-19.11.07:237][524]BlueprintLog: New page: Compile Level3
+[2016.04.09-19.11.07:398][524]LogExit: Transaction tracking system shut down
+[2016.04.09-19.11.07:398][524]LogExit: Transaction tracking system shut down
+[2016.04.09-19.11.07:402][524]BlueprintEditorCompileResults: Info [4170.19] Compile of Level3 successful! [in 164 ms]
+[2016.04.09-19.11.08:705][556]LogSavePackage: Save=186.46ms
+[2016.04.09-19.11.08:705][556]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel32B5B934F487CEDEDC68EC883641FD53B.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap'
+[2016.04.09-19.11.08:706][556]LogSavePackage: Total save time: 203.29ms
+[2016.04.09-19.11.08:706][556]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap
+[2016.04.09-19.11.40:796][ 33]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite9)
+[2016.04.09-19.12.06:256][619]LogInit: Transaction tracking system initialized
+[2016.04.09-19.12.06:256][619]EditorErrors: New page: Matinee Initialization
+[2016.04.09-19.14.44:249][956]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Wall_Tileable_Sprite54)
+[2016.04.09-19.14.46:042][ 25]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2016.04.09-19.14.49:267][142]LogEditorViewport: Clicking Background
+[2016.04.09-19.14.50:433][185]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2016.04.09-19.14.50:686][191]LogEditorViewport: Clicking on Actor (context menu): TriggerBox (TriggerBox)
+[2016.04.09-19.15.17:548][517]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.09-19.15.19:860][654]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.09-19.15.59:782][203]LogExit: Transaction tracking system shut down
+[2016.04.09-19.15.59:784][203]LogExit: Transaction tracking system shut down
+[2016.04.09-19.15.59:809][203]LogBlueprint:Error: [compiler Level3] Error This blueprint (self) is not a MatineeActor, therefore ' Target ' must have a connection.
+[2016.04.09-19.15.59:809][203]LogBlueprint:Error: [compiler Level3] Error This blueprint (self) is not a MatineeActor, therefore ' Target ' must have a connection.
+[2016.04.09-19.15.59:809][203]LogBlueprint:Error: [compiler Level3] Error Variable node  Set bLooping  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.04.09-19.15.59:921][203]LogBlueprint:Warning: [compiler Level3] Warning [4462.70] Compile of Level3 failed. 3 Fatal Issue(s) 0 Warning(s) [in 115 ms]
+[2016.04.09-19.15.59:922][203]LogBlueprint:Warning: [compiler Level3] Warning [4462.70] Compile of Level3 failed. 3 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.04.09-19.15.59:922][203]LogBlueprint:Warning: [compiler Level3] Warning [4462.70] Compile of Level3 failed. 3 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.04.09-19.15.59:922][203]LogBlueprint:Warning: [compiler Level3] Warning [4462.70] Compile of Level3 failed. 3 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.04.09-19.15.59:925][203]LogBlueprint:Warning: [compiler Level3] Warning [4462.71] Compile of Level3 failed. 3 Fatal Issue(s) 4 Warning(s) [in 2 ms]
+[2016.04.09-19.15.59:925][203]LogBlueprint:Warning: [compiler Level3] Warning [4462.71] Compile of Level3 failed. 3 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.04.09-19.16.00:040][203]LogSavePackage: Save=236.45ms
+[2016.04.09-19.16.00:040][203]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level3_Auto355F05A0C4E300BA79FCFD6BB347207AD.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level3_Auto3.umap'
+[2016.04.09-19.16.00:053][203]LogSavePackage: Total save time: 261.91ms
+[2016.04.09-19.16.00:053][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level3_Auto3.umap
+[2016.04.09-19.16.00:055][203]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level3' took 0.291
+[2016.04.09-19.16.00:055][203]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.291
+[2016.04.09-19.20.04:903][463]BlueprintLog: New page: Compile Level3
+[2016.04.09-19.20.04:985][463]BlueprintEditorCompileResults: Info [4707.76] Compile of Level3 successful! [in 81 ms]
+[2016.04.09-19.20.12:649][742]LogEditorViewport: Clicking Background
+[2016.04.09-19.20.29:145][453]LogInit: Transaction tracking system initialized
+[2016.04.09-19.20.29:145][453]EditorErrors: New page: Matinee Initialization
+[2016.04.09-19.21.05:264][683]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite43)
+[2016.04.09-19.21.05:920][706]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-19.21.15:604][ 64]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-19.21.15:688][ 64]LogEditorViewport: Clicking on Component (LMB): CameraComponent (SideViewCameraComponent)
+[2016.04.09-19.21.30:539][553]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2016.04.09-19.21.33:824][667]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2016.04.09-19.21.34:258][681]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2016.04.09-19.21.34:794][697]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite43)
+[2016.04.09-19.21.37:889][811]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-19.21.45:157][ 76]LogExit: Transaction tracking system shut down
+[2016.04.09-19.21.45:470][ 76]LogSavePackage: Save=197.32ms
+[2016.04.09-19.21.45:470][ 76]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel3C5AB74A34382CEAD3164EA966062CEE4.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap'
+[2016.04.09-19.21.45:471][ 76]LogSavePackage: Total save time: 219.75ms
+[2016.04.09-19.21.45:471][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap
+[2016.04.09-19.21.59:181][149]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite3)
+[2016.04.09-19.21.59:922][174]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite43)
+[2016.04.09-19.22.00:462][193]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite43)
+[2016.04.09-19.22.01:172][219]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-19.22.16:001][732]LogSavePackage: Save=193.74ms
+[2016.04.09-19.22.16:001][732]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel3FB09B3CE4D3FC376AB711994D275842D.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap'
+[2016.04.09-19.22.16:004][732]LogSavePackage: Total save time: 209.17ms
+[2016.04.09-19.22.16:004][732]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap
+[2016.04.09-19.22.38:831][ 68]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-19.22.47:487][396]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-19.22.57:854][800]LogSavePackage: Save=191.95ms
+[2016.04.09-19.22.57:854][800]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel3090B36894AA52B146F89A1AC444EBFFF.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap'
+[2016.04.09-19.22.57:856][800]LogSavePackage: Total save time: 206.28ms
+[2016.04.09-19.22.57:856][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap
+[2016.04.09-19.23.16:299][936]LogSavePackage: Save=207.14ms
+[2016.04.09-19.23.16:299][936]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel3ECC14A874237F522CD485E9E7F05B149.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap'
+[2016.04.09-19.23.16:302][936]LogSavePackage: Total save time: 222.00ms
+[2016.04.09-19.23.16:302][936]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap
+[2016.04.09-19.23.35:880][235]LogAIModule: Creating AISystem for world Level1
+[2016.04.09-19.23.37:068][235]LogSavePackage: Save=194.57ms
+[2016.04.09-19.23.37:068][235]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level351C2A6404CCBDA514B1394B7063756A5.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap'
+[2016.04.09-19.23.37:072][235]LogSavePackage: Total save time: 210.76ms
+[2016.04.09-19.23.37:072][235]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap
+[2016.04.09-19.23.37:235][235]LogFileHelpers: Saving map 'Level3' took 0.444
+[2016.04.09-19.23.37:240][235]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-19.23.37:240][235]LightingResults: New page: Lighting Build
+[2016.04.09-19.23.37:271][235]LoadErrors: New page: Loading map: Level1.umap
+[2016.04.09-19.23.37:297][235]MapCheck: New page: Map Check
+[2016.04.09-19.23.37:297][235]LightingResults: New page: Lighting Build
+[2016.04.09-19.23.37:512][235]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-19.23.37:542][235]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-19.23.37:592][235]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.143ms to complete.
+[2016.04.09-19.23.37:592][235]LogFileHelpers: Loading map 'Level1' took 0.357
+[2016.04.09-19.23.43:493][454]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-19.23.43:580][454]LogEditorViewport: Clicking on Component (LMB): CameraComponent (SideViewCameraComponent)
+[2016.04.09-19.23.47:633][587]LogSavePackage: Save=192.86ms
+[2016.04.09-19.23.47:633][587]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel15DBFD9A34603CF4932636FAEDCFE109B.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-19.23.47:636][587]LogSavePackage: Total save time: 220.06ms
+[2016.04.09-19.23.47:636][587]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-19.23.58:789][676]LogAIModule: Creating AISystem for world Level2
+[2016.04.09-19.23.58:819][676]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-19.23.58:819][676]LightingResults: New page: Lighting Build
+[2016.04.09-19.23.58:838][676]LoadErrors: New page: Loading map: Level2.umap
+[2016.04.09-19.23.58:862][676]MapCheck: New page: Map Check
+[2016.04.09-19.23.58:862][676]LightingResults: New page: Lighting Build
+[2016.04.09-19.23.59:081][676]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-19.23.59:143][676]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-19.23.59:194][676]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.396ms to complete.
+[2016.04.09-19.23.59:194][676]LogFileHelpers: Loading map 'Level2' took 0.376
+[2016.04.09-19.24.04:007][853]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-19.24.04:332][859]LogEditorViewport: Clicking on Component (LMB): CameraComponent (SideViewCameraComponent)
+[2016.04.09-19.24.09:040][998]LogSavePackage: Save=189.38ms
+[2016.04.09-19.24.09:040][998]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel2347083F6447882E8FD2818B2FCD1EA90.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel2.umap'
+[2016.04.09-19.24.09:043][998]LogSavePackage: Total save time: 208.49ms
+[2016.04.09-19.24.09:043][998]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel2.umap
+[2016.04.09-19.24.23:041][143]LogAIModule: Creating AISystem for world Level1
+[2016.04.09-19.24.24:327][143]LogSavePackage: Save=189.61ms
+[2016.04.09-19.24.24:327][143]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level264FE15E0444410083B1875BD77408F8D.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level2.umap'
+[2016.04.09-19.24.24:330][143]LogSavePackage: Total save time: 204.59ms
+[2016.04.09-19.24.24:330][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level2.umap
+[2016.04.09-19.24.24:358][143]LogFileHelpers: Saving map 'Level2' took 0.301
+[2016.04.09-19.24.24:360][143]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-19.24.24:360][143]LightingResults: New page: Lighting Build
+[2016.04.09-19.24.24:378][143]LoadErrors: New page: Loading map: Level1.umap
+[2016.04.09-19.24.24:406][143]MapCheck: New page: Map Check
+[2016.04.09-19.24.24:406][143]LightingResults: New page: Lighting Build
+[2016.04.09-19.24.24:664][143]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-19.24.24:695][143]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-19.24.24:746][143]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.359ms to complete.
+[2016.04.09-19.24.24:746][143]LogFileHelpers: Loading map 'Level1' took 0.387
+[2016.04.09-19.24.27:593][252]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-19.24.33:758][537]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-19.24.55:544][524]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-19.24.56:608][560]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-19.25.19:326][441]LogAIModule: Creating AISystem for world Level2
+[2016.04.09-19.25.19:356][441]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-19.25.19:356][441]LightingResults: New page: Lighting Build
+[2016.04.09-19.25.19:374][441]LoadErrors: New page: Loading map: Level2.umap
+[2016.04.09-19.25.19:376][441]MapCheck: New page: Map Check
+[2016.04.09-19.25.19:376][441]LightingResults: New page: Lighting Build
+[2016.04.09-19.25.19:622][441]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-19.25.19:809][441]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-19.25.19:880][441]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.931ms to complete.
+[2016.04.09-19.25.19:880][441]LogFileHelpers: Loading map 'Level2' took 0.526
+[2016.04.09-19.25.22:323][532]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-19.25.30:017][922]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-19.25.32:241][998]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-19.26.20:648][757]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-19.26.20:992][767]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-19.26.21:078][767]LogEditorViewport: Clicking on Component (LMB): CameraComponent (SideViewCameraComponent)
+[2016.04.09-19.26.33:168][162]LogSavePackage: Save=189.01ms
+[2016.04.09-19.26.33:168][162]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel20216A14443EAA865EFD6AFB979CA006C.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel2.umap'
+[2016.04.09-19.26.33:172][162]LogSavePackage: Total save time: 200.70ms
+[2016.04.09-19.26.33:172][162]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel2.umap
+[2016.04.09-19.26.46:496][310]LogAIModule: Creating AISystem for world Level3
+[2016.04.09-19.26.47:790][310]LogSavePackage: Save=189.24ms
+[2016.04.09-19.26.47:790][310]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level24990CC8E4929EEB69D49D688F2E94B8C.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level2.umap'
+[2016.04.09-19.26.47:793][310]LogSavePackage: Total save time: 205.10ms
+[2016.04.09-19.26.47:793][310]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level2.umap
+[2016.04.09-19.26.47:846][310]LogFileHelpers: Saving map 'Level2' took 0.330
+[2016.04.09-19.26.47:850][310]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-19.26.47:850][310]LightingResults: New page: Lighting Build
+[2016.04.09-19.26.47:871][310]LoadErrors: New page: Loading map: Level3.umap
+[2016.04.09-19.26.47:895][310]MapCheck: New page: Map Check
+[2016.04.09-19.26.47:895][310]LightingResults: New page: Lighting Build
+[2016.04.09-19.26.48:168][310]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-19.26.48:200][310]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-19.26.48:249][310]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.716ms to complete.
+[2016.04.09-19.26.48:249][310]LogFileHelpers: Loading map 'Level3' took 0.403
+[2016.04.09-19.26.49:633][364]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-19.26.49:709][364]LogEditorViewport: Clicking on Component (LMB): CameraComponent (SideViewCameraComponent)
+[2016.04.09-19.26.56:076][558]LogSavePackage: Save=191.66ms
+[2016.04.09-19.26.56:076][558]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel3043F5C764653D5D570B06395CF7EAA89.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap'
+[2016.04.09-19.26.56:079][558]LogSavePackage: Total save time: 205.91ms
+[2016.04.09-19.26.56:079][558]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap
+[2016.04.09-19.27.31:375][650]LogInit: Transaction tracking system initialized
+[2016.04.09-19.27.31:375][650]EditorErrors: New page: Matinee Initialization
+[2016.04.09-19.28.25:758][999]LogInit: Transaction tracking system initialized
+[2016.04.09-19.28.25:758][999]EditorErrors: New page: Matinee Initialization
+[2016.04.09-19.32.19:751][778]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_71.EdGraphPin_6085''
+[2016.04.09-19.32.19:751][778]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4539.EdGraphPin_6204''
+[2016.04.09-19.32.19:752][778]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Literal_6.EdGraphPin_5613''
+[2016.04.09-19.32.19:752][778]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Literal_10.EdGraphPin_5638''
+[2016.04.09-19.32.19:752][778]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Literal_67.EdGraphPin_5663''
+[2016.04.09-19.32.28:169][142]BlueprintLog: New page: Compile Level3
+[2016.04.09-19.32.28:251][142]LogExit: Transaction tracking system shut down
+[2016.04.09-19.32.28:251][142]LogExit: Transaction tracking system shut down
+[2016.04.09-19.32.28:254][142]BlueprintEditorCompileResults: Info [5451.02] Compile of Level3 successful! [in 84 ms]
+[2016.04.09-19.32.29:669][178]LogSavePackage: Save=216.55ms
+[2016.04.09-19.32.29:669][178]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel3741486F049C54CAB4526A2A885F0AD3A.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap'
+[2016.04.09-19.32.29:671][178]LogSavePackage: Total save time: 261.46ms
+[2016.04.09-19.32.29:672][178]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.umap
+[2016.04.09-19.34.29:808][538]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite27)
+[2016.04.09-19.34.45:232][108]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite28)
+[2016.04.09-19.34.46:314][147]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite27)
+[2016.04.09-19.35.02:522][746]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite39)
+[2016.04.09-19.35.02:990][761]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite28)
+[2016.04.09-19.35.07:751][938]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite29)
+[2016.04.09-19.35.10:815][ 52]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite46)
+[2016.04.09-19.35.11:514][ 75]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite27)
+[2016.04.09-19.35.12:204][ 99]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite28)
+[2016.04.09-19.35.18:599][379]LogInit: Transaction tracking system initialized
+[2016.04.09-19.35.18:600][379]EditorErrors: New page: Matinee Initialization
+[2016.04.09-19.35.42:783][ 52]LogInit: Transaction tracking system initialized
+[2016.04.09-19.35.42:783][ 52]EditorErrors: New page: Matinee Initialization
+[2016.04.09-19.36.49:786][309]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite27)
+[2016.04.09-19.36.54:546][494]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite40)
+[2016.04.09-19.36.55:463][530]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite27)
+[2016.04.09-19.37.38:241][132]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite39)
+[2016.04.09-19.37.38:893][157]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite29)
+[2016.04.09-19.41.03:643][325]LogExit: Transaction tracking system shut down
+[2016.04.09-19.41.03:643][325]LogExit: Transaction tracking system shut down
+[2016.04.09-19.41.06:183][325]LogSavePackage: Save=213.62ms
+[2016.04.09-19.41.06:183][325]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level34F032E624F5EF8EC10AF609C461A06FE.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap'
+[2016.04.09-19.41.06:187][325]LogSavePackage: Total save time: 235.38ms
+[2016.04.09-19.41.06:187][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level3.umap
+[2016.04.09-19.41.06:230][325]LogFileHelpers: Saving map 'Level3' took 0.348
+[2016.04.09-19.41.06:554][326]Cmd: QUIT_EDITOR
+[2016.04.09-19.41.06:643][326]LogExit: Preparing to exit.
+[2016.04.09-19.41.07:454][326]LogExit: Editor shut down
+[2016.04.09-19.41.07:454][326]LogExit: Transaction tracking system shut down
+[2016.04.09-19.41.07:620][326]LogObj: Freed 0b from 0 cluster array pools.
+[2016.04.09-19.41.07:621][326]LogExit: Object subsystem successfully closed.
+[2016.04.09-19.41.07:634][326]LogD3D11RHI: Shutdown
+[2016.04.09-19.41.07:634][326]LogD3D11RHI: CleanupD3DDevice
+[2016.04.09-19.41.07:785][326]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.09-19.41.07:871][326]LogDerivedDataCache: Shutdown
+[2016.04.09-19.41.07:871][326]LogModuleManager: Shutting down and abandoning module DistCurveEditor (207)
+[2016.04.09-19.41.07:871][326]LogModuleManager: Shutting down and abandoning module Matinee (206)
+[2016.04.09-19.41.07:871][326]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.04.09-19.41.07:871][326]LogModuleManager: Shutting down and abandoning module SequencerWidgets (204)
+[2016.04.09-19.41.07:871][326]LogModuleManager: Shutting down and abandoning module BlueprintGraph (203)
+[2016.04.09-19.41.07:871][326]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (202)
+[2016.04.09-19.41.07:871][326]LogModuleManager: Shutting down and abandoning module CrashTracker (201)
+[2016.04.09-19.41.07:871][326]LogModuleManager: Shutting down and abandoning module SceneOutliner (200)
+[2016.04.09-19.41.07:871][326]LogModuleManager: Shutting down and abandoning module SuperSearch (199)
+[2016.04.09-19.41.07:871][326]LogModuleManager: Shutting down and abandoning module WidgetCarousel (198)
+[2016.04.09-19.41.07:871][326]LogModuleManager: Shutting down and abandoning module AddContentDialog (197)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module GameplayTags (196)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module FoliageEdit (193)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module LandscapeEditor (192)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module ActorPickerMode (191)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module GeometryMode (190)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module TextureAlignMode (189)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module BspMode (188)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module PlacementMode (187)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module AutomationWorker (186)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module CharacterAI (185)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module SmartSnapping (184)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module ViewportSnapping (183)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module LogVisualizer (182)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (181)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module IntroTutorials (180)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (179)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (178)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (177)
+[2016.04.09-19.41.07:873][326]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (176)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (175)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (174)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (173)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module MergeActors (172)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module SizeMap (171)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module TreeMap (170)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module ReferenceViewer (169)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module LocalizationService (168)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (167)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module HardwareTargeting (166)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (165)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module UndoHistory (164)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module UserFeedback (163)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module XmlParser (162)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module Blutility (161)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (160)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (159)
+[2016.04.09-19.41.08:126][326]LogModuleManager: Shutting down and abandoning module InputBindingEditor (158)
+[2016.04.09-19.41.08:127][326]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (157)
+[2016.04.09-19.41.08:127][326]LogModuleManager: Shutting down and abandoning module SettingsEditor (156)
+[2016.04.09-19.41.08:127][326]LogModuleManager: Shutting down and abandoning module ProjectLauncher (155)
+[2016.04.09-19.41.08:127][326]LogModuleManager: Shutting down and abandoning module SessionFrontend (154)
+[2016.04.09-19.41.08:127][326]LogModuleManager: Shutting down and abandoning module ProfilerClient (153)
+[2016.04.09-19.41.08:127][326]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (152)
+[2016.04.09-19.41.08:127][326]LogModuleManager: Shutting down and abandoning module DeviceManager (151)
+[2016.04.09-19.41.08:157][326]LogModuleManager: Shutting down and abandoning module AutomationController (150)
+[2016.04.09-19.41.08:157][326]LogModuleManager: Shutting down and abandoning module AutomationWindow (149)
+[2016.04.09-19.41.08:157][326]LogModuleManager: Shutting down and abandoning module Layers (148)
+[2016.04.09-19.41.08:157][326]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (147)
+[2016.04.09-19.41.08:157][326]LogModuleManager: Shutting down and abandoning module DetailCustomizations (146)
+[2016.04.09-19.41.08:157][326]LogModuleManager: Shutting down and abandoning module PackagesDialog (145)
+[2016.04.09-19.41.08:157][326]LogModuleManager: Shutting down and abandoning module Persona (144)
+[2016.04.09-19.41.08:157][326]LogModuleManager: Shutting down and abandoning module Kismet (143)
+[2016.04.09-19.41.08:157][326]LogModuleManager: Shutting down and abandoning module GraphEditor (142)
+[2016.04.09-19.41.08:157][326]LogModuleManager: Shutting down and abandoning module ClassViewer (141)
+[2016.04.09-19.41.08:158][326]LogModuleManager: Shutting down and abandoning module Toolbox (140)
+[2016.04.09-19.41.08:158][326]LogModuleManager: Shutting down and abandoning module ModuleUI (139)
+[2016.04.09-19.41.08:158][326]LogModuleManager: Shutting down and abandoning module MovieSceneTools (138)
+[2016.04.09-19.41.08:158][326]LogModuleManager: Shutting down and abandoning module OutputLog (137)
+[2016.04.09-19.41.08:158][326]LogModuleManager: Shutting down and abandoning module GammaUI (136)
+[2016.04.09-19.41.08:158][326]LogModuleManager: Shutting down and abandoning module Documentation (135)
+[2016.04.09-19.41.08:158][326]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (134)
+[2016.04.09-19.41.08:158][326]LogModuleManager: Shutting down and abandoning module AnalyticsET (133)
+[2016.04.09-19.41.08:158][326]LogModuleManager: Shutting down and abandoning module Analytics (132)
+[2016.04.09-19.41.08:158][326]LogModuleManager: Shutting down and abandoning module PortalServices (131)
+[2016.04.09-19.41.08:158][326]LogModuleManager: Shutting down and abandoning module PortalRpc (130)
+[2016.04.09-19.41.08:158][326]LogModuleManager: Shutting down and abandoning module MessagingRpc (129)
+[2016.04.09-19.41.08:158][326]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.04.09-19.41.08:159][326]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.04.09-19.41.08:159][326]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.04.09-19.41.08:159][326]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module SlateRemote (123)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module SteamVRController (122)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module SteamVR (121)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (120)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module OculusLibrary (119)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module OculusInput (118)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (117)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module CableComponent (116)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (115)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (114)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module HTML5Networking (113)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (112)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module PluginBrowser (111)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module EpicSurvey (110)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module DesktopPlatform (109)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (108)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module UObjectPlugin (107)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (106)
+[2016.04.09-19.41.08:277][326]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (105)
+[2016.04.09-19.41.08:278][326]LogModuleManager: Shutting down and abandoning module SourceControl (104)
+[2016.04.09-19.41.08:278][326]LogModuleManager: Shutting down and abandoning module GitSourceControl (103)
+[2016.04.09-19.41.08:278][326]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (102)
+[2016.04.09-19.41.08:278][326]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (101)
+[2016.04.09-19.41.08:278][326]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (100)
+[2016.04.09-19.41.08:278][326]LogModuleManager: Shutting down and abandoning module MeshPaint (99)
+[2016.04.09-19.41.08:278][326]LogModuleManager: Shutting down and abandoning module HotReload (98)
+[2016.04.09-19.41.08:278][326]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2016.04.09-19.41.08:278][326]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2016.04.09-19.41.08:279][326]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (95)
+[2016.04.09-19.41.08:280][326]LogModuleManager: Shutting down and abandoning module AssetRegistry (94)
+[2016.04.09-19.41.08:407][326]LogModuleManager: Shutting down and abandoning module ContentBrowser (93)
+[2016.04.09-19.41.08:408][326]LogModuleManager: Shutting down and abandoning module Paper2DEditor (92)
+[2016.04.09-19.41.08:408][326]LogModuleManager: Shutting down and abandoning module UdpMessaging (91)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (90)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module Paper2D (89)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (88)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module Media (87)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module WmfMedia (86)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.04.09-19.41.08:508][326]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.04.09-19.41.08:509][326]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.04.09-19.41.08:509][326]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.04.09-19.41.08:509][326]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.04.09-19.41.08:509][326]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.04.09-19.41.08:511][326]LogDerivedDataCache: Shutdown
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.09-19.41.08:511][326]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.09-19.41.10:512][326]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.09-19.41.10:512][326]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.09-19.41.10:512][326]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.09-19.41.10:512][326]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.09-19.41.10:512][326]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.09-19.41.10:512][326]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.09-19.41.10:512][326]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.09-19.41.10:516][326]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.09-19.41.10:516][326]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.09-19.41.10:516][326]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.09-19.41.10:516][326]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.09-19.41.10:516][326]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.09-19.41.10:516][326]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.09-19.41.10:516][326]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.09-19.41.10:516][326]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.09-19.41.10:516][326]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.09-19.41.10:516][326]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.09-19.41.10:517][326]LogExit: Exiting.
+[2016.04.09-19.41.10:533][326]Log file closed, 04/09/16 14:41:10

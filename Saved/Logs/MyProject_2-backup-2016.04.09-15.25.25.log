@@ -1,0 +1,181 @@
+﻿Log file open, 04/09/16 15:25:10
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1276541164) SRandInit(-1276541162).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.072595
+LogInit: Version: 4.11.1-2934540+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr  6 2016 02:14:16
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3 -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.04.09-20.25.10:725][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.09-20.25.10:725][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.09-20.25.10:727][  0]LogInit: Computer: CURTIS-PC
+[2016.04.09-20.25.10:727][  0]LogInit: User: Curtis
+[2016.04.09-20.25.10:727][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.04.09-20.25.10:727][  0]LogInit: High frequency timer resolution =2.336201 MHz
+[2016.04.09-20.25.10:728][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.09-20.25.10:728][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.09-20.25.10:728][  0]LogMemory: Process Physical Memory: 314.00 MB used, 314.00 MB peak
+[2016.04.09-20.25.10:728][  0]LogMemory: Process Virtual Memory: 316.73 MB used, 316.73 MB peak
+[2016.04.09-20.25.10:728][  0]LogMemory: Physical Memory: 6279.37 MB used, 8139.82 MB total
+[2016.04.09-20.25.10:728][  0]LogMemory: Virtual Memory: 620.69 MB used, 8388608.00 MB total
+[2016.04.09-20.25.10:759][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.09-20.25.11:160][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.09-20.25.11:224][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6870M' (Feature Level 11_0)
+[2016.04.09-20.25.11:224][  0]LogD3D11RHI:       1010MB of dedicated video memory, 0MB of dedicated system memory, and 3813MB of shared system memory, 1 output[s]
+[2016.04.09-20.25.11:229][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
+[2016.04.09-20.25.11:229][  0]LogD3D11RHI:       64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.04.09-20.25.11:229][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.09-20.25.11:234][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.09-20.25.11:234][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6870M
+[2016.04.09-20.25.11:234][  0]LogD3D11RHI:   Driver Version: 9.3.0.0 (internal 9.3.0.0)
+[2016.04.09-20.25.11:234][  0]LogD3D11RHI:      Driver Date: 10-25-2012
+[2016.04.09-20.25.11:235][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
+[2016.04.09-20.25.11:239][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.04.09-20.25.11:251][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Intermediate/Shaders/WorkingDirectory/5768/).
+[2016.04.09-20.25.11:251][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Curtis/AppData/Local/Temp/UnrealShaderWorkingDir/3A0609C34FDC6F1201FD19A6EDAC8072/'.
+[2016.04.09-20.25.11:251][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.09-20.25.12:215][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.09-20.25.12:219][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.09-20.25.12:223][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.09-20.25.12:227][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.09-20.25.12:231][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.09-20.25.12:234][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.09-20.25.12:237][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.09-20.25.12:240][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.09-20.25.12:243][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.09-20.25.12:245][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.09-20.25.12:248][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.09-20.25.12:254][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.09-20.25.12:254][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.09-20.25.12:254][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.09-20.25.12:270][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.09-20.25.12:273][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.09-20.25.12:275][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.09-20.25.12:278][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.09-20.25.12:281][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.09-20.25.12:281][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.09-20.25.12:339][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.09-20.25.12:390][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/Curtis/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.09-20.25.12:390][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Curtis/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.09-20.25.12:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.09-20.25.12:390][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.09-20.25.12:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.09-20.25.12:390][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.09-20.25.12:407][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.09-20.25.12:419][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Curtis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.09-20.25.12:613][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.09-20.25.12:618][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.09-20.25.12:619][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2016.04.09-20.25.12:754][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.09-20.25.12:754][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.09-20.25.12:754][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.04.09-20.25.12:975][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.09-20.25.13:027][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.09-20.25.13:027][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.09-20.25.13:136][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/Movies/Default_Startup.mp4
+[2016.04.09-20.25.13:203][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.09-20.25.13:277][  0]SourceControl: Info Source control is disabled
+[2016.04.09-20.25.13:278][  0]SourceControl: Info Source control is disabled
+[2016.04.09-20.25.13:291][  0]SourceControl: Info Source control is disabled
+[2016.04.09-20.25.13:376][  0]LogUObjectArray: 29142 objects as part of root set at end of initial load.
+[2016.04.09-20.25.13:376][  0]LogUObjectAllocator: 6065048 out of 0 bytes used by permanent object pool.
+[2016.04.09-20.25.13:376][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.04.09-20.25.13:431][  0]LogEngine: Initializing Engine...
+[2016.04.09-20.25.13:432][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.09-20.25.13:432][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.09-20.25.13:564][  0]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.09-20.25.13:575][  0]LogInit: FAudioDevice initialized.
+[2016.04.09-20.25.13:582][  0]LogInit: Texture streaming: Enabled
+[2016.04.09-20.25.13:662][  0]LogNet: Browse: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3?Name=Player
+[2016.04.09-20.25.13:662][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3?Name=Player
+[2016.04.09-20.25.13:677][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.09-20.25.13:677][  0]LogMemory: Process Physical Memory: 643.73 MB used, 644.78 MB peak
+[2016.04.09-20.25.13:677][  0]LogMemory: Process Virtual Memory: 628.95 MB used, 635.92 MB peak
+[2016.04.09-20.25.13:677][  0]LogMemory: Physical Memory: 6548.05 MB used, 8139.82 MB total
+[2016.04.09-20.25.13:677][  0]LogMemory: Virtual Memory: 1153.76 MB used, 8388608.00 MB total
+[2016.04.09-20.25.13:677][  0]LogMemory: 
+[2016.04.09-20.25.13:677][  0]Allocator Stats for TBB: (not implemented)
+[2016.04.09-20.25.13:998][  0]LogAIModule: Creating AISystem for world Level3
+[2016.04.09-20.25.14:001][  0]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2016.04.09-20.25.14:015][  0]LogWorld: Bringing World /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel3.Level3 up for play (max tick rate 0) at 2016.04.09-15.25.14
+[2016.04.09-20.25.14:016][  0]LogWorld: Bringing up level for play took: 0.014175
+[2016.04.09-20.25.14:019][  0]LogInit:Display: Game Engine Initialized.
+[2016.04.09-20.25.14:240][  0]LogLoad: Full Startup: 4.13 seconds (BP compile: 0.06 seconds)
+[2016.04.09-20.25.14:240][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.04.09-20.25.14:258][  0]LogOcInput: OculusInput pre-init called
+[2016.04.09-20.25.14:403][  2]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2016.04.09-20.25.15:924][ 32]LogPackageName: SearchForPackageOnDisk took   0.063s to resolve Level3.umap.
+[2016.04.09-20.25.15:980][ 33]LogPackageName: SearchForPackageOnDisk took   0.054s to resolve Level3.umap.
+[2016.04.09-20.25.15:980][ 33]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Level3
+[2016.04.09-20.25.15:980][ 33]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Level3
+[2016.04.09-20.25.16:012][ 33]LogMemory: Platform Memory Stats for Windows
+[2016.04.09-20.25.16:012][ 33]LogMemory: Process Physical Memory: 681.58 MB used, 688.32 MB peak
+[2016.04.09-20.25.16:012][ 33]LogMemory: Process Virtual Memory: 660.10 MB used, 660.40 MB peak
+[2016.04.09-20.25.16:012][ 33]LogMemory: Physical Memory: 6634.41 MB used, 8139.82 MB total
+[2016.04.09-20.25.16:012][ 33]LogMemory: Virtual Memory: 1199.56 MB used, 8388608.00 MB total
+[2016.04.09-20.25.16:012][ 33]LogMemory: 
+[2016.04.09-20.25.16:012][ 33]Allocator Stats for TBB: (not implemented)
+[2016.04.09-20.25.16:305][ 33]LogAIModule: Creating AISystem for world Level3
+[2016.04.09-20.25.16:308][ 33]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2016.04.09-20.25.16:321][ 33]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Level3.Level3 up for play (max tick rate 0) at 2016.04.09-15.25.16
+[2016.04.09-20.25.16:322][ 33]LogWorld: Bringing up level for play took: 0.012778
+[2016.04.09-20.25.16:885][ 45]LogPackageName: SearchForPackageOnDisk took   0.055s to resolve Level3.umap.
+[2016.04.09-20.25.16:940][ 46]LogPackageName: SearchForPackageOnDisk took   0.054s to resolve Level3.umap.
+[2016.04.09-20.25.16:940][ 46]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Level3
+[2016.04.09-20.25.16:940][ 46]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Level3
+[2016.04.09-20.25.16:970][ 46]LogMemory: Platform Memory Stats for Windows
+[2016.04.09-20.25.16:970][ 46]LogMemory: Process Physical Memory: 698.75 MB used, 700.13 MB peak
+[2016.04.09-20.25.16:970][ 46]LogMemory: Process Virtual Memory: 673.79 MB used, 678.44 MB peak
+[2016.04.09-20.25.16:970][ 46]LogMemory: Physical Memory: 6662.41 MB used, 8139.82 MB total
+[2016.04.09-20.25.16:970][ 46]LogMemory: Virtual Memory: 1211.56 MB used, 8388608.00 MB total
+[2016.04.09-20.25.16:970][ 46]LogMemory: 
+[2016.04.09-20.25.16:970][ 46]Allocator Stats for TBB: (not implemented)
+[2016.04.09-20.25.17:259][ 46]LogAIModule: Creating AISystem for world Level3
+[2016.04.09-20.25.17:262][ 46]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2016.04.09-20.25.17:274][ 46]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Level3.Level3 up for play (max tick rate 0) at 2016.04.09-15.25.17
+[2016.04.09-20.25.17:275][ 46]LogWorld: Bringing up level for play took: 0.012609
+[2016.04.09-20.25.17:337][ 47]LogPackageName: SearchForPackageOnDisk took   0.058s to resolve Level3.umap.
+[2016.04.09-20.25.17:393][ 47]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve Level3.umap.
+[2016.04.09-20.25.17:451][ 48]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve Level3.umap.
+[2016.04.09-20.25.17:451][ 48]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Level3
+[2016.04.09-20.25.17:451][ 48]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Level3
+[2016.04.09-20.25.17:480][ 48]LogMemory: Platform Memory Stats for Windows
+[2016.04.09-20.25.17:480][ 48]LogMemory: Process Physical Memory: 702.05 MB used, 702.05 MB peak
+[2016.04.09-20.25.17:480][ 48]LogMemory: Process Virtual Memory: 675.32 MB used, 678.44 MB peak
+[2016.04.09-20.25.17:480][ 48]LogMemory: Physical Memory: 6664.08 MB used, 8139.82 MB total
+[2016.04.09-20.25.17:480][ 48]LogMemory: Virtual Memory: 1211.56 MB used, 8388608.00 MB total
+[2016.04.09-20.25.17:480][ 48]LogMemory: 
+[2016.04.09-20.25.17:480][ 48]Allocator Stats for TBB: (not implemented)
+[2016.04.09-20.25.17:775][ 48]LogAIModule: Creating AISystem for world Level3
+[2016.04.09-20.25.17:779][ 48]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2016.04.09-20.25.17:791][ 48]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Level3.Level3 up for play (max tick rate 0) at 2016.04.09-15.25.17
+[2016.04.09-20.25.17:792][ 48]LogWorld: Bringing up level for play took: 0.012693
+[2016.04.09-20.25.19:158][ 83]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve Level3.umap.
+[2016.04.09-20.25.19:214][ 84]LogPackageName: SearchForPackageOnDisk took   0.054s to resolve Level3.umap.
+[2016.04.09-20.25.19:214][ 84]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Level3
+[2016.04.09-20.25.19:214][ 84]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Level3
+[2016.04.09-20.25.19:244][ 84]LogMemory: Platform Memory Stats for Windows
+[2016.04.09-20.25.19:244][ 84]LogMemory: Process Physical Memory: 707.21 MB used, 707.21 MB peak
