@@ -1,9 +1,9 @@
-﻿Log file open, 04/09/16 12:50:57
+﻿Log file open, 04/09/16 13:01:37
 LogInit:Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1417676229) SRandInit(-1417676228).
+LogInit:Display: RandInit(77003171) SRandInit(77003172).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-LogStats: Stats thread started at 0.065570
+LogStats: Stats thread started at 0.066216
 LogInit: Version: 4.11.1-2934540+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr  6 2016 02:14:16
@@ -29,29 +29,260 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.04.09-17.50.58:065][  0]LogInit: Selected Device Profile: [Windows]
-[2016.04.09-17.50.58:065][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.04.09-17.50.58:075][  0]LogInit: Computer: CURTIS-PC
-[2016.04.09-17.50.58:075][  0]LogInit: User: Curtis
-[2016.04.09-17.50.58:075][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.04.09-17.50.58:075][  0]LogInit: High frequency timer resolution =2.336201 MHz
-[2016.04.09-17.50.58:075][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.04.09-17.50.58:075][  0]LogMemory: Platform Memory Stats for Windows
-[2016.04.09-17.50.58:075][  0]LogMemory: Process Physical Memory: 314.44 MB used, 314.44 MB peak
-[2016.04.09-17.50.58:075][  0]LogMemory: Process Virtual Memory: 316.75 MB used, 316.75 MB peak
-[2016.04.09-17.50.58:075][  0]LogMemory: Physical Memory: 3108.25 MB used, 8139.82 MB total
-[2016.04.09-17.50.58:075][  0]LogMemory: Virtual Memory: 620.69 MB used, 8388608.00 MB total
-[2016.04.09-17.50.58:109][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.04.09-17.50.58:530][  0]LogD3D11RHI: D3D11 adapters:
-[2016.04.09-17.50.58:536][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6870M' (Feature Level 11_0)
-[2016.04.09-17.50.58:536][  0]LogD3D11RHI:       1010MB of dedicated video memory, 0MB of dedicated system memory, and 3813MB of shared system memory, 1 output[s]
-[2016.04.09-17.50.58:540][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
-[2016.04.09-17.50.58:540][  0]LogD3D11RHI:       64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
-[2016.04.09-17.50.58:540][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.04.09-17.50.58:545][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.04.09-17.50.58:545][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6870M
-[2016.04.09-17.50.58:545][  0]LogD3D11RHI:   Driver Version: 9.3.0.0 (internal 9.3.0.0)
-[2016.04.09-17.50.58:545][  0]LogD3D11RHI:      Driver Date: 10-25-2012
-[2016.04.09-17.50.58:545][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
-[2016.04.09-17.50.58:551][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2016.04.09-17.50.58:562][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Int
+[2016.04.09-18.01.37:806][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.09-18.01.37:806][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.09-18.01.37:816][  0]LogInit: Computer: CURTIS-PC
+[2016.04.09-18.01.37:816][  0]LogInit: User: Curtis
+[2016.04.09-18.01.37:816][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.04.09-18.01.37:816][  0]LogInit: High frequency timer resolution =2.336201 MHz
+[2016.04.09-18.01.37:817][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.09-18.01.37:817][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.09-18.01.37:817][  0]LogMemory: Process Physical Memory: 314.45 MB used, 314.45 MB peak
+[2016.04.09-18.01.37:817][  0]LogMemory: Process Virtual Memory: 316.75 MB used, 316.75 MB peak
+[2016.04.09-18.01.37:817][  0]LogMemory: Physical Memory: 3134.77 MB used, 8139.82 MB total
+[2016.04.09-18.01.37:817][  0]LogMemory: Virtual Memory: 620.69 MB used, 8388608.00 MB total
+[2016.04.09-18.01.37:847][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.09-18.01.38:285][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.09-18.01.38:291][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6870M' (Feature Level 11_0)
+[2016.04.09-18.01.38:291][  0]LogD3D11RHI:       1010MB of dedicated video memory, 0MB of dedicated system memory, and 3813MB of shared system memory, 1 output[s]
+[2016.04.09-18.01.38:295][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
+[2016.04.09-18.01.38:295][  0]LogD3D11RHI:       64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.04.09-18.01.38:295][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.09-18.01.38:300][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.09-18.01.38:301][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6870M
+[2016.04.09-18.01.38:301][  0]LogD3D11RHI:   Driver Version: 9.3.0.0 (internal 9.3.0.0)
+[2016.04.09-18.01.38:301][  0]LogD3D11RHI:      Driver Date: 10-25-2012
+[2016.04.09-18.01.38:301][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
+[2016.04.09-18.01.38:307][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.04.09-18.01.38:318][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Intermediate/Shaders/WorkingDirectory/6416/).
+[2016.04.09-18.01.38:318][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Curtis/AppData/Local/Temp/UnrealShaderWorkingDir/78E8086A4E9EF43D754261A5689755C6/'.
+[2016.04.09-18.01.38:318][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.09-18.01.39:372][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.09-18.01.39:376][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.09-18.01.39:380][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.09-18.01.39:384][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.09-18.01.39:388][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.09-18.01.39:391][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.09-18.01.39:394][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.09-18.01.39:397][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.09-18.01.39:400][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.09-18.01.39:403][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.09-18.01.39:406][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.09-18.01.39:412][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.09-18.01.39:412][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.09-18.01.39:412][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.09-18.01.39:428][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.09-18.01.39:431][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.09-18.01.39:433][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.09-18.01.39:436][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.09-18.01.39:439][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.09-18.01.39:439][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.09-18.01.39:501][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.09-18.01.39:558][  0]LogDerivedDataCache: Loaded boot cache 0.06s 46MB C:/Users/Curtis/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.09-18.01.39:558][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Curtis/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.09-18.01.39:559][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.09-18.01.39:559][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.09-18.01.39:559][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.09-18.01.39:559][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.09-18.01.39:576][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.09-18.01.39:587][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Curtis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.09-18.01.39:781][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.09-18.01.39:782][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.04.09-18.01.39:813][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.09-18.01.39:958][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.09-18.01.39:958][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.09-18.01.39:958][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.04.09-18.01.40:212][  0]LogUObjectArray: 27678 objects as part of root set at end of initial load.
+[2016.04.09-18.01.40:212][  0]LogUObjectAllocator: 5591384 out of 0 bytes used by permanent object pool.
+[2016.04.09-18.01.40:212][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.04.09-18.01.40:217][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.09-18.01.40:291][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.09-18.01.40:291][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.09-18.01.40:390][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.09-18.01.40:390][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.09-18.01.40:390][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.09-18.01.40:390][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.09-18.01.40:390][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.09-18.01.40:390][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.09-18.01.40:945][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.09-18.01.41:041][  0]LogAssetRegistry: FAssetRegistry took 0.0200 seconds to start up
+[2016.04.09-18.01.41:227][  0]SourceControl: Info Source control is disabled
+[2016.04.09-18.01.41:273][  0]SourceControl: Info Source control is disabled
+[2016.04.09-18.01.41:279][  0]SourceControl: Info Source control is disabled
+[2016.04.09-18.01.41:285][  0]SourceControl: Info Source control is disabled
+[2016.04.09-18.01.41:437][  0]LogEngine: Initializing Engine...
+[2016.04.09-18.01.41:437][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.09-18.01.41:438][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.09-18.01.41:585][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.09-18.01.41:592][  0]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.09-18.01.41:625][  0]LogInit: FAudioDevice initialized.
+[2016.04.09-18.01.41:647][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Curtis/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.09-18.01.41:655][  0]LogInit: Texture streaming: Enabled
+[2016.04.09-18.01.41:673][  0]LogInit: Transaction tracking system initialized
+[2016.04.09-18.01.41:691][  0]BlueprintLog: New page: Editor Load
+[2016.04.09-18.01.41:756][  0]LocalizationService: Info Localization service is disabled
+[2016.04.09-18.01.41:814][  0]LogConsoleResponse:Display: 
+[2016.04.09-18.01.41:930][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.04.09-18.01.41:930][  0]LogCook:Display: Mobile HDR setting 1
+[2016.04.09-18.01.41:930][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.09-18.01.41:970][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/' took 0.02s
+[2016.04.09-18.01.41:970][  0]SourceControl: Info Source control is disabled
+[2016.04.09-18.01.41:971][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-18.01.41:971][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2016.04.09-18.01.41:971][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-18.01.42:004][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.768ms to complete.
+[2016.04.09-18.01.42:004][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.033
+[2016.04.09-18.01.42:130][  0]LogCollectionManager: Loaded 0 collections in 0.001564 seconds
+[2016.04.09-18.01.42:167][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Collections/' took 0.01s
+[2016.04.09-18.01.42:167][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/Developers/Curtis/Collections/' took 0.01s
+[2016.04.09-18.01.42:167][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/Collections/' took 0.01s
+[2016.04.09-18.01.42:167][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.04.09-18.01.42:174][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1979 classes and 343 folders.
+[2016.04.09-18.01.42:177][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.04.09-18.01.42:177][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.04.09-18.01.42:178][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.04.09-18.01.42:181][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.09-18.01.42:186][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.09-18.01.42:222][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.09-18.01.42:225][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.09-18.01.42:280][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.09-18.01.42:283][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.09-18.01.42:306][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.04.09-18.01.42:307][  0]LogLoad: Full Startup: 5.16 seconds (BP compile: 0.00 seconds)
+[2016.04.09-18.01.42:307][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.04.09-18.01.42:324][  0]LogOcInput: OculusInput pre-init called
+[2016.04.09-18.01.42:364][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.09-18.01.42:521][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:2).
+[2016.04.09-18.01.42:721][  1]LogAssetRegistry: Asset discovery search completed in 1.7004 seconds
+[2016.04.09-18.01.42:721][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.09-18.01.42:721][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2016.04.09-18.01.48:807][290]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
+[2016.04.09-18.02.02:765][920]BlueprintLog: New page: Compile LevelClear
+[2016.04.09-18.02.02:861][920]BlueprintEditorCompileResults: Info [0025.72] Compile of LevelClear successful! [in 95 ms]
+[2016.04.09-18.02.03:077][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/LevelClear" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/LevelClear.uasset" SILENT=true
+[2016.04.09-18.02.03:111][929]LogSavePackage: Save=16.68ms
+[2016.04.09-18.02.03:111][929]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/LevelClear4BECA31E4B5DC1A17AFCA0A035593A5D.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/LevelClear.uasset'
+[2016.04.09-18.02.03:115][929]LogSavePackage: Total save time: 36.06ms
+[2016.04.09-18.02.03:115][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/LevelClear.uasset
+[2016.04.09-18.02.07:014][119]LogAIModule: Creating AISystem for world Level1
+[2016.04.09-18.02.07:071][119]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-18.02.07:071][119]LightingResults: New page: Lighting Build
+[2016.04.09-18.02.07:074][119]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2016.04.09-18.02.07:103][119]LoadErrors: New page: Loading map: Level1.umap
+[2016.04.09-18.02.07:103][119]MapCheck: New page: Map Check
+[2016.04.09-18.02.07:103][119]LightingResults: New page: Lighting Build
+[2016.04.09-18.02.07:199][119]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-18.02.07:231][119]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-18.02.07:281][119]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.622ms to complete.
+[2016.04.09-18.02.07:282][119]LogFileHelpers: Loading map 'Level1' took 0.212
+[2016.04.09-18.02.09:794][219]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (cavesprite_0_Sprite)
+[2016.04.09-18.02.09:869][219]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2016.04.09-18.02.10:451][241]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2016.04.09-18.02.11:000][259]LogEditorViewport: Clicking on Actor (context menu): TriggerBox (TriggerBox)
+[2016.04.09-18.03.02:146][796]BlueprintLog: New page: Compile Level1
+[2016.04.09-18.03.02:223][796]BlueprintEditorCompileResults: Info [0085.08] Compile of Level1 successful! [in 76 ms]
+[2016.04.09-18.03.17:535][376]LogSavePackage: Save=189.58ms
+[2016.04.09-18.03.17:535][376]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel19CDE124D4A30EFB7BE992381ABFA3F0F.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-18.03.17:538][376]LogSavePackage: Total save time: 207.74ms
+[2016.04.09-18.03.17:538][376]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-18.06.03:359][592]BlueprintLog: New page: Compile Level1
+[2016.04.09-18.06.03:436][592]BlueprintEditorCompileResults: Info [0266.29] Compile of Level1 successful! [in 76 ms]
+[2016.04.09-18.12.07:496][279]LogSavePackage: Save=204.51ms
+[2016.04.09-18.12.07:496][279]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1_Auto1C418097D4BA3EF683CF4F699981DEF67.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto1.umap'
+[2016.04.09-18.12.07:499][279]LogSavePackage: Total save time: 223.59ms
+[2016.04.09-18.12.07:499][279]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto1.umap
+[2016.04.09-18.12.07:501][279]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level1' took 0.252
+[2016.04.09-18.12.07:501][279]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.252
+[2016.04.09-18.13.23:589][520]AssetReimport: New page: Outstanding source content changes 7:13:23 AM
+[2016.04.09-18.13.23:645][521]LogEditorFactories: Performing atomic reimport of [C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/SFX/Ice Box.wav]
+[2016.04.09-18.13.23:646][521]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/SFX/Ice Box.wav)
+[2016.04.09-18.13.23:791][521]LogEditorFactories: -- imported successfully
+[2016.04.09-18.13.23:952][522]LogAudioDerivedData:Display: Building compressed audio format OGG wave Ice_Box...
+[2016.04.09-18.13.27:243][522]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/2DSideScroller/SFX/Ice_Box.Ice_Box.
+[2016.04.09-18.13.27:288][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/SFX/Ice_Box" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/SFX/Ice_Box.uasset" SILENT=true
+[2016.04.09-18.13.27:344][522]LogSavePackage: Save=21.96ms
+[2016.04.09-18.13.27:344][522]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Ice_Box1661F684472F100646C906B7E2C495F0.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/SFX/Ice_Box.uasset'
+[2016.04.09-18.13.27:350][522]LogSavePackage: Total save time: 60.15ms
+[2016.04.09-18.13.27:350][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/SFX/Ice_Box.uasset
+[2016.04.09-18.13.30:377][635]AssetReimport: Info Reimported asset Ice_Box from C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/SFX/Ice Box.wav.
+[2016.04.09-18.13.33:996][725]LogSavePackage: Save=187.01ms
+[2016.04.09-18.13.33:996][725]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1B6ADB78145926145CDA226BC3F0803A2.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap'
+[2016.04.09-18.13.33:999][725]LogSavePackage: Total save time: 197.41ms
+[2016.04.09-18.13.33:999][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap
+[2016.04.09-18.13.34:028][725]LogFileHelpers: Saving map 'Level1' took 0.292
+[2016.04.09-18.13.34:034][725]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-18.13.34:034][725]LightingResults: New page: Lighting Build
+[2016.04.09-18.13.34:056][725]LoadErrors: New page: Loading map: Level1.umap
+[2016.04.09-18.13.34:058][725]MapCheck: New page: Map Check
+[2016.04.09-18.13.34:058][725]LightingResults: New page: Lighting Build
+[2016.04.09-18.13.34:120][725]LogAIModule: Creating AISystem for world Level1
+[2016.04.09-18.13.34:210][725]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-18.13.34:240][725]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-18.13.34:286][725]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.447ms to complete.
+[2016.04.09-18.13.34:287][725]LogFileHelpers: Loading map 'Level1' took 0.254
+[2016.04.09-18.13.36:949][829]LogAIModule: Creating AISystem for world TitleScreen
+[2016.04.09-18.13.36:971][829]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TitleScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-18.13.36:971][829]LightingResults: New page: Lighting Build
+[2016.04.09-18.13.36:991][829]LoadErrors: New page: Loading map: TitleScreen.umap
+[2016.04.09-18.13.36:993][829]MapCheck: New page: Map Check
+[2016.04.09-18.13.36:993][829]LightingResults: New page: Lighting Build
+[2016.04.09-18.13.37:101][829]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-18.13.37:132][829]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-18.13.37:179][829]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.409ms to complete.
+[2016.04.09-18.13.37:180][829]LogFileHelpers: Loading map 'TitleScreen' took 0.211
+[2016.04.09-18.13.38:226][875]LogSavePackage: Save=84.26ms
+[2016.04.09-18.13.38:226][875]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCTitleScreen3F51E71246B62E3EE30BF48138D9C2AF.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap'
+[2016.04.09-18.13.38:229][875]LogSavePackage: Total save time: 97.81ms
+[2016.04.09-18.13.38:229][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap
+[2016.04.09-18.16.39:296][374]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.04.09-18.16.39:424][374]BlueprintEditorCompileResults: Info [0902.27] Compile of 2DSideScrollerCharacter successful! [in 128 ms]
+[2016.04.09-18.16.40:186][394]LogSavePackage: Save=242.25ms
+[2016.04.09-18.16.40:188][394]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/2DSideScrollerCharacter31AF8D1F4C2B98485584DEBBCCE24C9D.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.04.09-18.16.40:203][394]LogSavePackage: Total save time: 275.79ms
+[2016.04.09-18.16.40:203][394]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.04.09-18.20.19:479][342]LogEditorTransaction: Undo Move Widget
+[2016.04.09-18.20.32:348][910]LogEditorTransaction: Undo Move Widget
+[2016.04.09-18.23.39:797][333]BlueprintLog: New page: Compile MainMenu
+[2016.04.09-18.23.39:943][333]BlueprintEditorCompileResults: Info [1322.78] Compile of MainMenu successful! [in 146 ms]
+[2016.04.09-18.23.40:273][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/MainMenu" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset" SILENT=true
+[2016.04.09-18.23.40:371][345]LogSavePackage: Save=79.57ms
+[2016.04.09-18.23.40:371][345]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenuF3F54D724EC776F246095598DB0A4CF6.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset'
+[2016.04.09-18.23.40:374][345]LogSavePackage: Total save time: 98.86ms
+[2016.04.09-18.23.40:374][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset
+[2016.04.09-18.24.22:134][207]LogEditorTransaction: Undo Resize Widget
+[2016.04.09-18.27.44:245][614]BlueprintLog: New page: Compile MainMenu
+[2016.04.09-18.27.44:367][614]BlueprintEditorCompileResults: Info [1567.20] Compile of MainMenu successful! [in 121 ms]
+[2016.04.09-18.27.44:916][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/MainMenu" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset" SILENT=true
+[2016.04.09-18.27.45:018][637]LogSavePackage: Save=92.36ms
+[2016.04.09-18.27.45:018][637]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenu56D5B8134A7AE77359F798A741429433.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset'
+[2016.04.09-18.27.45:021][637]LogSavePackage: Total save time: 102.33ms
+[2016.04.09-18.27.45:021][637]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset
+[2016.04.09-18.28.56:732][201]BlueprintLog: New page: Compile MainMenu
+[2016.04.09-18.28.56:843][201]BlueprintEditorCompileResults: Info [1639.67] Compile of MainMenu successful! [in 111 ms]
+[2016.04.09-18.28.57:373][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/MainMenu" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset" SILENT=true
+[2016.04.09-18.28.57:535][222]LogSavePackage: Save=130.83ms
+[2016.04.09-18.28.57:535][222]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenu5897ABB24281D53A6AC2D0B81B272D17.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset'
+[2016.04.09-18.28.57:540][222]LogSavePackage: Total save time: 161.85ms
+[2016.04.09-18.28.57:540][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset
+[2016.04.09-18.28.59:669][315]LogSavePackage: Save=91.93ms
+[2016.04.09-18.28.59:669][315]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCTitleScreen82DCB8424BA6D394616FB88286687D85.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap'
+[2016.04.09-18.28.59:672][315]LogSavePackage: Total save time: 122.43ms
+[2016.04.09-18.28.59:672][315]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap
+[2016.04.09-18.29.49:247][178]BlueprintLog: New page: Compile MainMenu
+[2016.04.09-18.29.49:370][178]BlueprintEditorCompileResults: Info [1692.20] Compile of MainMenu successful! [in 123 ms]
+[2016.04.09-18.29.49:624][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/MainMenu" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset" SILENT=true
+[2016.04.09-18.29.49:736][188]LogSavePackage: Save=98.49ms
+[2016.04.09-18.29.49:736][188]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenuF57CD6EA4111D631788343A5D8BA547B.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset'
+[2016.04.09-18.29.49:740][188]LogSavePackage: Total save time: 114.23ms
+[2016.04.09-18.29.49:740][188]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset
+[2016.04.09-18.29.52:026][288]LogSavePackage: Save=105.37ms
+[2016.04.09-18.29.52:026][288]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCTitleScreenD071CBBA4902C92579E250BA78724F31.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap'
+[2016.04.09-18.29.52:027][288]LogSavePackage: Total save time: 120.35ms
+[2016.04.09-18.29.52:027][288]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTitleScreen.umap
+[2016.04.09-18.30.26:088][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_251.EdGraphPin_32156''
+[2016.04.09-18.30.26:088][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3444.EdGraphPin_32067''
+[2016.04.09-18.30.26:089][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_252.EdGraphPin_32158''
+[2016.04.09-18.30.26:089][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3368.EdGraphPin_32313''
+[2016.04.09-18.30.26:090][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_281.EdGraphPin_32325''
+[2016.04.09-18.30.26:090][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3443.EdGraphPin_32327''
+[2016.04.09-18.30.26:090][487]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_282.EdGraphP
