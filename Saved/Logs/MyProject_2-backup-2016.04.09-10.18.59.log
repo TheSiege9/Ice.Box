@@ -1,0 +1,55 @@
+﻿Log file open, 04/09/16 10:18:53
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1257418780) SRandInit(-1257418778).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.069581
+LogInit: Version: 4.11.1-2934540+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr  6 2016 02:14:16
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1 -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.04.09-15.18.54:147][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.09-15.18.54:147][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.09-15.18.54:150][  0]LogInit: Computer: CURTIS-PC
+[2016.04.09-15.18.54:150][  0]LogInit: User: Curtis
+[2016.04.09-15.18.54:150][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.04.09-15.18.54:150][  0]LogInit: High frequency timer resolution =2.336201 MHz
+[2016.04.09-15.18.54:150][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.09-15.18.54:150][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.09-15.18.54:150][  0]LogMemory: Process Physical Memory: 313.82 MB used, 313.82 MB peak
+[2016.04.09-15.18.54:150][  0]LogMemory: Process Virtual Memory: 316.72 MB used, 316.72 MB peak
+[2016.04.09-15.18.54:150][  0]LogMemory: Physical Memory: 4743.16 MB used, 8139.82 MB total
+[2016.04.09-15.18.54:150][  0]LogMemory: Virtual Memory: 620.69 MB used, 8388608.00 MB total
+[2016.04.09-15.18.54:180][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.09-15.18.54:566][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.09-15.18.54:622][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6870M' (Feature Level 11_0)
+[2016.04.09-15.18.54:622][  0]LogD3D11RHI:       1010MB of dedicated video memory, 0MB of dedicated system memory, and 3813MB of shared system memory, 1 output[s]
+[2016.04.09-15.18.54:795][  0]LogWindows:Error: === Critical error: ===
+Fatal error!
+
+
+
+[2016.04.09-15.18.54:796][  0]LogExit: Executing StaticShutdownAfterError
+[2016.04.09-15.18.54:796][  0]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.04.09-15.18.54:796][  0]Log file closed, 04/09/16 10:18:54

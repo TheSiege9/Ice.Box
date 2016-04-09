@@ -1,0 +1,1463 @@
+﻿Log file open, 04/09/16 08:22:56
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-331630482) SRandInit(-331630480).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.066960
+LogInit: Version: 4.11.1-2934540+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr  6 2016 02:14:16
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.04.09-13.22.56:725][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.09-13.22.56:725][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.09-13.22.56:735][  0]LogInit: Computer: CURTIS-PC
+[2016.04.09-13.22.56:735][  0]LogInit: User: Curtis
+[2016.04.09-13.22.56:735][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.04.09-13.22.56:735][  0]LogInit: High frequency timer resolution =2.336201 MHz
+[2016.04.09-13.22.56:735][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.09-13.22.56:735][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.09-13.22.56:735][  0]LogMemory: Process Physical Memory: 314.04 MB used, 314.04 MB peak
+[2016.04.09-13.22.56:735][  0]LogMemory: Process Virtual Memory: 316.73 MB used, 316.73 MB peak
+[2016.04.09-13.22.56:735][  0]LogMemory: Physical Memory: 3706.49 MB used, 8139.82 MB total
+[2016.04.09-13.22.56:735][  0]LogMemory: Virtual Memory: 620.69 MB used, 8388608.00 MB total
+[2016.04.09-13.22.56:766][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.09-13.22.57:195][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.09-13.22.57:206][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6870M' (Feature Level 11_0)
+[2016.04.09-13.22.57:206][  0]LogD3D11RHI:       1010MB of dedicated video memory, 0MB of dedicated system memory, and 3813MB of shared system memory, 1 output[s]
+[2016.04.09-13.22.57:211][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
+[2016.04.09-13.22.57:211][  0]LogD3D11RHI:       64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.04.09-13.22.57:211][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.09-13.22.57:216][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.09-13.22.57:216][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6870M
+[2016.04.09-13.22.57:216][  0]LogD3D11RHI:   Driver Version: 9.3.0.0 (internal 9.3.0.0)
+[2016.04.09-13.22.57:216][  0]LogD3D11RHI:      Driver Date: 10-25-2012
+[2016.04.09-13.22.57:216][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
+[2016.04.09-13.22.57:222][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.04.09-13.22.57:233][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Intermediate/Shaders/WorkingDirectory/7540/).
+[2016.04.09-13.22.57:233][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Curtis/AppData/Local/Temp/UnrealShaderWorkingDir/BB91B5E74D38D146D9380C81CF8D7396/'.
+[2016.04.09-13.22.57:233][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.09-13.22.58:197][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.09-13.22.58:201][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.09-13.22.58:205][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.09-13.22.58:210][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.09-13.22.58:214][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.09-13.22.58:218][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.09-13.22.58:221][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.09-13.22.58:224][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.09-13.22.58:228][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.09-13.22.58:231][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.09-13.22.58:234][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.09-13.22.58:241][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.09-13.22.58:241][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.09-13.22.58:242][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.09-13.22.58:258][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.09-13.22.58:261][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.09-13.22.58:264][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.09-13.22.58:267][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.09-13.22.58:270][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.09-13.22.58:270][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.09-13.22.58:330][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.09-13.22.58:387][  0]LogDerivedDataCache: Loaded boot cache 0.06s 46MB C:/Users/Curtis/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.09-13.22.58:387][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Curtis/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.09-13.22.58:387][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.09-13.22.58:387][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.09-13.22.58:387][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.09-13.22.58:387][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.09-13.22.58:403][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.09-13.22.58:415][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Curtis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.09-13.22.58:599][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.09-13.22.58:600][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.04.09-13.22.58:628][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.09-13.22.58:776][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.09-13.22.58:776][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.09-13.22.58:776][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.04.09-13.22.59:036][  0]LogUObjectArray: 27678 objects as part of root set at end of initial load.
+[2016.04.09-13.22.59:036][  0]LogUObjectAllocator: 5591392 out of 0 bytes used by permanent object pool.
+[2016.04.09-13.22.59:036][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.04.09-13.22.59:041][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.09-13.22.59:116][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.09-13.22.59:116][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.09-13.22.59:216][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.09-13.22.59:216][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.09-13.22.59:216][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.09-13.22.59:216][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.09-13.22.59:216][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.09-13.22.59:216][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.09-13.22.59:770][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.09-13.22.59:894][  0]LogAssetRegistry: FAssetRegistry took 0.0203 seconds to start up
+[2016.04.09-13.23.00:036][  0]SourceControl: Info Source control is disabled
+[2016.04.09-13.23.00:065][  0]SourceControl: Info Source control is disabled
+[2016.04.09-13.23.00:071][  0]SourceControl: Info Source control is disabled
+[2016.04.09-13.23.00:077][  0]SourceControl: Info Source control is disabled
+[2016.04.09-13.23.00:231][  0]LogEngine: Initializing Engine...
+[2016.04.09-13.23.00:232][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.09-13.23.00:232][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.09-13.23.00:387][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.09-13.23.00:394][  0]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.09-13.23.00:424][  0]LogInit: FAudioDevice initialized.
+[2016.04.09-13.23.00:451][  0]LogDerivedDataCache: Saved boot cache 0.03s 46MB C:/Users/Curtis/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.09-13.23.00:459][  0]LogInit: Texture streaming: Enabled
+[2016.04.09-13.23.00:479][  0]LogInit: Transaction tracking system initialized
+[2016.04.09-13.23.00:496][  0]BlueprintLog: New page: Editor Load
+[2016.04.09-13.23.00:666][  0]LocalizationService: Info Localization service is disabled
+[2016.04.09-13.23.00:721][  0]LogConsoleResponse:Display: 
+[2016.04.09-13.23.00:823][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.04.09-13.23.00:823][  0]LogCook:Display: Mobile HDR setting 1
+[2016.04.09-13.23.00:823][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.09-13.23.00:861][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/' took 0.01s
+[2016.04.09-13.23.00:861][  0]SourceControl: Info Source control is disabled
+[2016.04.09-13.23.00:862][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-13.23.00:862][  0]LightingResults: New page: Lighting Build
+[2016.04.09-13.23.00:864][  0]MapCheck: New page: Map Check
+[2016.04.09-13.23.00:865][  0]LightingResults: New page: Lighting Build
+[2016.04.09-13.23.01:154][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2016.04.09-13.23.01:158][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-13.23.01:159][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-13.23.01:199][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.279ms to complete.
+[2016.04.09-13.23.01:199][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.338
+[2016.04.09-13.23.01:338][  0]LogCollectionManager: Loaded 0 collections in 0.001566 seconds
+[2016.04.09-13.23.01:374][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Collections/' took 0.01s
+[2016.04.09-13.23.01:374][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/Developers/Curtis/Collections/' took 0.01s
+[2016.04.09-13.23.01:374][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/Collections/' took 0.01s
+[2016.04.09-13.23.01:374][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.04.09-13.23.01:381][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 1979 classes and 343 folders.
+[2016.04.09-13.23.01:385][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.04.09-13.23.01:385][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.04.09-13.23.01:385][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.04.09-13.23.01:389][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.09-13.23.01:394][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.09-13.23.01:433][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.04.09-13.23.01:437][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.09-13.23.01:497][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.09-13.23.01:500][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.09-13.23.01:525][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.04.09-13.23.01:525][  0]LogLoad: Full Startup: 5.54 seconds (BP compile: 0.06 seconds)
+[2016.04.09-13.23.01:525][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.04.09-13.23.01:542][  0]LogOcInput: OculusInput pre-init called
+[2016.04.09-13.23.01:589][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.09-13.23.01:750][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:2).
+[2016.04.09-13.23.01:911][  1]LogAssetRegistry: Asset discovery search completed in 2.0382 seconds
+[2016.04.09-13.23.01:911][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.09-13.23.01:911][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2016.04.09-13.35.48:998][750]LogSavePackage: Save=74.63ms
+[2016.04.09-13.35.48:998][750]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPC2DSideScrollerExampleMap145E18414285C52F4AE1D284FECA0F7A.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap'
+[2016.04.09-13.35.48:999][750]LogSavePackage: Total save time: 102.95ms
+[2016.04.09-13.35.48:999][750]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap
+[2016.04.09-14.15.42:836][440]LogMetaData: Removing '/Game/2DSideScrollerBP/Maps/TestMap.TestMap_C' ref from Metadata '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.PackageMetaData'
+[2016.04.09-14.15.42:836][440]LogMetaData: Removing '/Game/2DSideScrollerBP/Maps/TestMap.SKEL_TestMap_C' ref from Metadata '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.PackageMetaData'
+[2016.04.09-14.15.42:993][440]LogSavePackage: Save=69.80ms
+[2016.04.09-14.15.42:993][440]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/TestMapE988DDDF4EC339F21C7CE9BA7B250EEC.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TestMap.umap'
+[2016.04.09-14.15.42:996][440]LogSavePackage: Total save time: 72.84ms
+[2016.04.09-14.15.42:996][440]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TestMap.umap
+[2016.04.09-14.15.43:023][440]LogFileHelpers: Saving map 'TestMap' took 0.155
+[2016.04.09-14.25.22:643][418]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.09-14.26.42:407][711]LogTexture:Display: Building textures: Wall_Tileable (AutoDXT)
+[2016.04.09-14.26.42:408][711]LogTexture:Display: Building textures: Ice_Platform_Tileable (AutoDXT)
+[2016.04.09-14.26.42:411][711]LogTexture:Display: Building textures: background (AutoDXT)
+[2016.04.09-14.26.42:413][711]LogTexture:Display: Building textures: Right_Wall (AutoDXT)
+[2016.04.09-14.26.42:415][711]LogTexture:Display: Building textures: Left_Wall (AutoDXT)
+[2016.04.09-14.26.42:449][711]LogAIModule: Creating AISystem for world Level1
+[2016.04.09-14.26.42:471][711]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-14.26.42:471][711]LightingResults: New page: Lighting Build
+[2016.04.09-14.26.42:491][711]LoadErrors: New page: Loading map: Level1.umap
+[2016.04.09-14.26.42:492][711]MapCheck: New page: Map Check
+[2016.04.09-14.26.42:492][711]LightingResults: New page: Lighting Build
+[2016.04.09-14.26.42:550][711]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-14.26.42:576][711]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-14.26.42:620][711]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.874ms to complete.
+[2016.04.09-14.26.42:620][711]LogFileHelpers: Loading map 'Level1' took 0.151
+[2016.04.09-14.26.57:961][311]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.27.27:025][339]LogSavePackage: Save=112.75ms
+[2016.04.09-14.27.27:025][339]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1F0297EFF45E4E37B675045A93525A560.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.27.27:027][339]LogSavePackage: Total save time: 120.62ms
+[2016.04.09-14.27.27:027][339]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.27.40:795][446]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.27.41:500][470]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.27.42:003][483]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.27.46:501][618]LogSavePackage: Save=113.99ms
+[2016.04.09-14.27.46:501][618]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel13AEEF50342519552B40771BCDCD92628.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.27.46:504][618]LogSavePackage: Total save time: 119.71ms
+[2016.04.09-14.27.46:504][618]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.27.58:907][750]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.27.59:266][761]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.28.01:519][848]Cmd: DELETE
+[2016.04.09-14.28.01:519][848]Cmd: ACTOR DELETE
+[2016.04.09-14.28.01:668][848]LogEditorActor: Deleted Actor: PlayerStart
+[2016.04.09-14.28.01:694][848]LogEditorActor: Deleted 1 Actors (0.092 secs)
+[2016.04.09-14.28.02:849][886]LogSavePackage: Save=120.61ms
+[2016.04.09-14.28.02:849][886]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel15332899F4C6103EB75B58D87D9B4B0CE.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.28.02:851][886]LogSavePackage: Total save time: 131.46ms
+[2016.04.09-14.28.02:851][886]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.28.12:938][974]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.28.13:556][990]LogEditorViewport: Clicking on Actor (context menu): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.28.14:212][ 23]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.28.15:184][ 55]Cmd: DELETE
+[2016.04.09-14.28.15:184][ 55]Cmd: ACTOR DELETE
+[2016.04.09-14.28.15:184][ 55]LogEditorActor: Deleted Actor: 2DSideScrollerCharacter_C
+[2016.04.09-14.28.15:245][ 55]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2016.04.09-14.28.31:630][720]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.28.36:847][926]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.28.39:418][ 25]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.28.42:701][143]LogSavePackage: Save=93.45ms
+[2016.04.09-14.28.42:701][143]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1C840DFBD444B3251D1BB8DA5121E7629.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.28.42:714][143]LogSavePackage: Total save time: 109.17ms
+[2016.04.09-14.28.42:714][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.28.59:689][492]LogSavePackage: Save=134.12ms
+[2016.04.09-14.28.59:689][492]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1A2802F194F2CADD3EE80778C89510680.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.28.59:692][492]LogSavePackage: Total save time: 146.73ms
+[2016.04.09-14.28.59:692][492]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.29.12:837][719]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.29.17:245][855]LogSavePackage: Save=111.42ms
+[2016.04.09-14.29.17:245][855]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel155B9428C4AA232CABE9413BAC3221553.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.29.17:248][855]LogSavePackage: Total save time: 116.41ms
+[2016.04.09-14.29.17:248][855]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.29.27:538][  2]LogAIModule: Creating AISystem for world TestMap
+[2016.04.09-14.29.29:087][  2]LogSavePackage: Save=113.29ms
+[2016.04.09-14.29.29:087][  2]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level129CE4A604D90288163375C8A0FACF2A9.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap'
+[2016.04.09-14.29.29:090][  2]LogSavePackage: Total save time: 119.87ms
+[2016.04.09-14.29.29:090][  2]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap
+[2016.04.09-14.29.29:117][  2]LogFileHelpers: Saving map 'Level1' took 0.201
+[2016.04.09-14.29.29:120][  2]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-14.29.29:120][  2]LightingResults: New page: Lighting Build
+[2016.04.09-14.29.29:141][  2]LoadErrors: New page: Loading map: TestMap.umap
+[2016.04.09-14.29.29:168][  2]MapCheck: New page: Map Check
+[2016.04.09-14.29.29:168][  2]LightingResults: New page: Lighting Build
+[2016.04.09-14.29.29:226][  2]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-14.29.29:253][  2]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-14.29.29:295][  2]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.034ms to complete.
+[2016.04.09-14.29.29:295][  2]LogFileHelpers: Loading map 'TestMap' took 0.177
+[2016.04.09-14.29.32:304][153]LogSavePackage: Save=69.44ms
+[2016.04.09-14.29.32:304][153]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCTestMapC0225A9A43CA0482D401769C0DCB3723.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTestMap.umap'
+[2016.04.09-14.29.32:306][153]LogSavePackage: Total save time: 76.61ms
+[2016.04.09-14.29.32:306][153]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTestMap.umap
+[2016.04.09-14.30.48:889][650]LogAIModule: Creating AISystem for world Level1
+[2016.04.09-14.30.48:912][650]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-14.30.48:912][650]LightingResults: New page: Lighting Build
+[2016.04.09-14.30.48:932][650]LoadErrors: New page: Loading map: Level1.umap
+[2016.04.09-14.30.48:932][650]MapCheck: New page: Map Check
+[2016.04.09-14.30.48:932][650]LightingResults: New page: Lighting Build
+[2016.04.09-14.30.49:009][650]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-14.30.49:038][650]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-14.30.49:081][650]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.215ms to complete.
+[2016.04.09-14.30.49:081][650]LogFileHelpers: Loading map 'Level1' took 0.171
+[2016.04.09-14.30.50:762][718]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.30.51:112][729]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.30.52:434][770]Cmd: DELETE
+[2016.04.09-14.30.52:434][770]Cmd: ACTOR DELETE
+[2016.04.09-14.30.52:435][770]LogEditorActor: Deleted Actor: 2DSideScrollerCharacter_C
+[2016.04.09-14.30.52:470][770]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2016.04.09-14.30.53:071][796]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.30.53:744][820]Cmd: DELETE
+[2016.04.09-14.30.53:744][820]Cmd: ACTOR DELETE
+[2016.04.09-14.30.53:744][820]LogEditorActor: Deleted Actor: PlayerStart
+[2016.04.09-14.30.53:753][820]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2016.04.09-14.31.03:922][234]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite18)
+[2016.04.09-14.31.04:748][265]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.31.19:288][829]LogSavePackage: Save=113.35ms
+[2016.04.09-14.31.19:288][829]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel17B93842148DFD3CB4DBDF58A0600B1BE.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.31.19:291][829]LogSavePackage: Total save time: 119.34ms
+[2016.04.09-14.31.19:291][829]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.31.40:477][993]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.31.41:495][ 47]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite18)
+[2016.04.09-14.31.42:110][ 69]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.31.42:655][ 89]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.31.44:271][138]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.31.44:387][139]LogEditorViewport: Clicking on Component (LMB): CameraComponent (SideViewCameraComponent)
+[2016.04.09-14.31.50:615][340]LogSavePackage: Save=113.77ms
+[2016.04.09-14.31.50:615][340]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1456575BA414ECB0CB52DD09DC68A78A7.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.31.50:618][340]LogSavePackage: Total save time: 119.10ms
+[2016.04.09-14.31.50:618][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.32.17:507][ 35]LogSavePackage: Save=126.91ms
+[2016.04.09-14.32.17:507][ 35]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1596968AB4511672F664C0387C9C853EC.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.32.17:509][ 35]LogSavePackage: Total save time: 139.18ms
+[2016.04.09-14.32.17:509][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.32.41:262][543]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.32.42:445][587]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.32.44:203][642]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.32.47:039][725]LogSavePackage: Save=111.98ms
+[2016.04.09-14.32.47:039][725]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel15ECA84B940E1C50F1A6041AD2F403936.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.32.47:041][725]LogSavePackage: Total save time: 120.34ms
+[2016.04.09-14.32.47:041][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.32.56:942][845]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.32.59:522][946]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.33.00:362][968]LogSavePackage: Save=137.54ms
+[2016.04.09-14.33.00:362][968]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1606878D64F57089D4E7B1BB04B6E8162.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.33.00:364][968]LogSavePackage: Total save time: 142.86ms
+[2016.04.09-14.33.00:364][968]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.33.08:739][ 85]Cmd: TRANSACTION UNDO
+[2016.04.09-14.33.08:739][ 85]LogEditorTransaction: Undo Move Actors
+[2016.04.09-14.33.08:999][ 92]Cmd: TRANSACTION UNDO
+[2016.04.09-14.33.08:999][ 92]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-14.33.09:578][110]Cmd: TRANSACTION UNDO
+[2016.04.09-14.33.09:578][110]LogEditorTransaction: Undo Move Actors
+[2016.04.09-14.33.35:460][961]LogSavePackage: Save=111.57ms
+[2016.04.09-14.33.35:460][961]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel18BF79371489CA41715881B85535BD07C.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.33.35:462][961]LogSavePackage: Total save time: 117.01ms
+[2016.04.09-14.33.35:462][961]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.34.29:997][538]LogSavePackage: Save=111.43ms
+[2016.04.09-14.34.29:997][538]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1221AA0B446B62E18AFAFF591E9EFB4EE.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.34.29:999][538]LogSavePackage: Total save time: 116.70ms
+[2016.04.09-14.34.29:999][538]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.35.23:111][560]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.35.23:991][593]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.35.26:740][703]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.36.53:885][180]LogSavePackage: Save=180.34ms
+[2016.04.09-14.36.53:885][180]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1522E5CDB44DBE79BAD343FA53DE2ACA9.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.36.53:897][180]LogSavePackage: Total save time: 194.81ms
+[2016.04.09-14.36.53:897][180]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.37.13:125][579]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.37.21:962][866]LogSavePackage: Save=113.23ms
+[2016.04.09-14.37.21:962][866]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1619BB8CF469297DE0C66099064A32445.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.37.21:964][866]LogSavePackage: Total save time: 118.39ms
+[2016.04.09-14.37.21:964][866]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.37.44:883][402]Cmd: UpdateLandscapeSetup
+[2016.04.09-14.37.47:618][486]LogSavePackage: Save=133.97ms
+[2016.04.09-14.37.47:618][486]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1CBF6F20043A8FC5FB207B298ACDFD578.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.37.47:621][486]LogSavePackage: Total save time: 153.26ms
+[2016.04.09-14.37.47:621][486]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.38.15:126][282]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.38.16:100][333]LogEditorViewport: Clicking Background
+[2016.04.09-14.38.17:349][383]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.38.18:174][409]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.38.19:558][461]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.38.19:686][464]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
+[2016.04.09-14.38.24:504][662]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.38.28:154][810]Cmd: TRANSACTION UNDO
+[2016.04.09-14.38.28:154][810]LogEditorTransaction: Undo Move Components
+[2016.04.09-14.38.31:895][960]Cmd: TRANSACTION UNDO
+[2016.04.09-14.38.31:895][960]LogEditorTransaction: Undo Clicking on Components
+[2016.04.09-14.38.33:421][ 21]Cmd: TRANSACTION UNDO
+[2016.04.09-14.38.33:421][ 21]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-14.38.34:849][ 80]Cmd: TRANSACTION UNDO
+[2016.04.09-14.38.34:849][ 80]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-14.38.38:414][201]Cmd: TRANSACTION UNDO
+[2016.04.09-14.38.38:414][201]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-14.38.40:357][298]Cmd: TRANSACTION UNDO
+[2016.04.09-14.38.40:357][298]LogEditorTransaction: Undo Clicking Background
+[2016.04.09-14.38.44:598][471]Cmd: TRANSACTION UNDO
+[2016.04.09-14.38.44:598][471]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2016.04.09-14.39.12:720][397]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.39.12:823][397]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2016.04.09-14.39.14:387][460]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.39.18:092][578]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite2)
+[2016.04.09-14.39.18:986][611]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.39.19:440][628]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.39.20:048][650]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.39.21:990][710]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.39.22:550][731]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.39.37:121][312]Cmd: DELETE
+[2016.04.09-14.39.37:121][312]Cmd: ACTOR DELETE
+[2016.04.09-14.39.37:122][312]LogEditorActor: Deleted Actor: PlayerStart
+[2016.04.09-14.39.37:147][312]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2016.04.09-14.39.52:793][942]LogPhysics:Warning: Scale 'X=1.000 Y=1.000 Z=0.000' is not valid on object '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.PlayerStart_5.CollisionCapsule'.
+[2016.04.09-14.39.55:136][ 36]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.39.57:235][120]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.39.57:992][148]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.40.15:910][718]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (background_Sprite2)
+[2016.04.09-14.40.17:067][766]LogSavePackage: Save=118.47ms
+[2016.04.09-14.40.17:067][766]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1E2597E79496A7F7431CF71ABE7DAB9F0.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.40.17:071][766]LogSavePackage: Total save time: 125.18ms
+[2016.04.09-14.40.17:071][766]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.40.52:573][947]LogSavePackage: Save=113.24ms
+[2016.04.09-14.40.52:573][947]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1_Auto186A212F3408157C4FD9E9984E63DA9B5.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto1.umap'
+[2016.04.09-14.40.52:575][947]LogSavePackage: Total save time: 117.45ms
+[2016.04.09-14.40.52:575][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto1.umap
+[2016.04.09-14.40.52:576][947]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level1' took 0.130
+[2016.04.09-14.40.52:576][947]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.130
+[2016.04.09-14.41.06:296][ 25]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.41.07:659][ 74]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.41.09:010][126]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.41.11:527][225]Cmd: DELETE
+[2016.04.09-14.41.11:527][225]Cmd: ACTOR DELETE
+[2016.04.09-14.41.11:528][225]LogEditorActor: Deleted Actor: PlayerStart
+[2016.04.09-14.41.11:536][225]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2016.04.09-14.41.12:760][265]LogSavePackage: Save=143.93ms
+[2016.04.09-14.41.12:760][265]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel147D9CCAB4EB20522E7FDA8A1DF03E15F.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.41.12:762][265]LogSavePackage: Total save time: 149.12ms
+[2016.04.09-14.41.12:762][265]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.41.28:259][607]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite3)
+[2016.04.09-14.41.29:203][645]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.41.30:965][714]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.41.34:228][843]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.41.37:562][972]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.41.43:307][200]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.41.47:335][364]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.41.50:119][472]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.41.51:521][518]LogSavePackage: Save=112.76ms
+[2016.04.09-14.41.51:521][518]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1DDD98514456E9033CA47438795ACC631.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.41.51:522][518]LogSavePackage: Total save time: 117.18ms
+[2016.04.09-14.41.51:522][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.42.04:610][780]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.42.05:468][804]LogSavePackage: Save=113.36ms
+[2016.04.09-14.42.05:468][804]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel17902126C47CB48265E72F8B656E679C8.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.42.05:471][804]LogSavePackage: Total save time: 118.74ms
+[2016.04.09-14.42.05:471][804]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.42.16:712][978]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.42.18:017][ 28]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.42.24:304][276]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.42.25:483][318]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite2)
+[2016.04.09-14.42.26:002][329]LogSavePackage: Save=123.91ms
+[2016.04.09-14.42.26:002][329]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel134B01DE54ABA1FB83A5E3F921B22E404.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.42.26:015][329]LogSavePackage: Total save time: 143.42ms
+[2016.04.09-14.42.26:015][329]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.42.38:533][473]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.42.44:297][701]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.42.47:278][807]LogSavePackage: Save=111.37ms
+[2016.04.09-14.42.47:278][807]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1133B3792446D997D839705A101CCF7A2.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.42.47:280][807]LogSavePackage: Total save time: 120.39ms
+[2016.04.09-14.42.47:280][807]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.43.10:578][105]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.43.12:727][186]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.43.14:115][228]LogSavePackage: Save=205.73ms
+[2016.04.09-14.43.14:116][228]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1AE9C76E94476FA833828A483B111B6BA.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.43.14:120][228]LogSavePackage: Total save time: 218.03ms
+[2016.04.09-14.43.14:120][228]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.43.31:864][482]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.43.33:232][532]LogSavePackage: Save=112.13ms
+[2016.04.09-14.43.33:232][532]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel10E62289B449085EE0642368AB951C8B5.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.43.33:234][532]LogSavePackage: Total save time: 117.46ms
+[2016.04.09-14.43.33:234][532]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.43.44:615][652]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.43.45:164][670]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.43.45:486][681]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-14.43.46:153][706]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.43.47:686][767]Cmd: DELETE
+[2016.04.09-14.43.47:686][767]Cmd: ACTOR DELETE
+[2016.04.09-14.43.47:687][767]LogEditorActor: Deleted Actor: PlayerStart
+[2016.04.09-14.43.47:696][767]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2016.04.09-14.44.08:849][599]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.44.10:307][645]LogSavePackage: Save=111.76ms
+[2016.04.09-14.44.10:307][645]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1A7E088E1463FCB3C482A54BAC07DF4C1.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.44.10:309][645]LogSavePackage: Total save time: 116.96ms
+[2016.04.09-14.44.10:309][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.44.25:015][926]LogAIModule: Creating AISystem for world TestMap
+[2016.04.09-14.44.31:139][926]LogSavePackage: Save=111.68ms
+[2016.04.09-14.44.31:139][926]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1532816624350C78F6786CAB85E150E62.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap'
+[2016.04.09-14.44.31:141][926]LogSavePackage: Total save time: 117.36ms
+[2016.04.09-14.44.31:141][926]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap
+[2016.04.09-14.44.31:168][926]LogFileHelpers: Saving map 'Level1' took 0.198
+[2016.04.09-14.44.31:170][926]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-14.44.31:171][926]LightingResults: New page: Lighting Build
+[2016.04.09-14.44.31:189][926]LoadErrors: New page: Loading map: TestMap.umap
+[2016.04.09-14.44.31:191][926]MapCheck: New page: Map Check
+[2016.04.09-14.44.31:191][926]LightingResults: New page: Lighting Build
+[2016.04.09-14.44.31:239][926]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-14.44.31:265][926]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-14.44.31:306][926]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.496ms to complete.
+[2016.04.09-14.44.31:306][926]LogFileHelpers: Loading map 'TestMap' took 0.139
+[2016.04.09-14.44.33:841][ 59]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.04.09-14.44.35:974][168]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.44.37:127][215]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.04.09-14.44.45:677][657]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.04.09-14.44.47:039][726]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2016.04.09-14.44.47:496][748]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.44.48:977][823]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.04.09-14.44.50:982][923]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.44.52:537][  2]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.04.09-14.44.54:169][ 85]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.45.00:335][418]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2016.04.09-14.45.00:770][438]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.45.01:905][495]Cmd: DELETE
+[2016.04.09-14.45.01:905][495]Cmd: ACTOR DELETE
+[2016.04.09-14.45.01:906][495]LogEditorActor: Deleted Actor: PlayerStart
+[2016.04.09-14.45.01:924][495]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.04.09-14.45.03:210][561]LogAIModule: Creating AISystem for world Level1
+[2016.04.09-14.45.04:280][561]LogSavePackage: Save=68.97ms
+[2016.04.09-14.45.04:280][561]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/TestMapB6CB4BE8424D70FFDCD8D6B1C2D9AF66.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TestMap.umap'
+[2016.04.09-14.45.04:283][561]LogSavePackage: Total save time: 78.10ms
+[2016.04.09-14.45.04:283][561]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TestMap.umap
+[2016.04.09-14.45.04:309][561]LogFileHelpers: Saving map 'TestMap' took 0.160
+[2016.04.09-14.45.04:311][561]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-14.45.04:311][561]LightingResults: New page: Lighting Build
+[2016.04.09-14.45.04:331][561]LoadErrors: New page: Loading map: Level1.umap
+[2016.04.09-14.45.04:331][561]MapCheck: New page: Map Check
+[2016.04.09-14.45.04:331][561]LightingResults: New page: Lighting Build
+[2016.04.09-14.45.04:390][561]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-14.45.04:416][561]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-14.45.04:458][561]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.333ms to complete.
+[2016.04.09-14.45.04:458][561]LogFileHelpers: Loading map 'Level1' took 0.149
+[2016.04.09-14.45.05:405][599]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.45.06:347][624]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.45.06:808][637]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.45.12:015][862]LogSavePackage: Save=135.30ms
+[2016.04.09-14.45.12:015][862]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1BC8A040B421771231602ECA407D492DC.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.45.12:019][862]LogSavePackage: Total save time: 150.36ms
+[2016.04.09-14.45.12:019][862]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.45.24:595][101]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.45.32:729][411]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.45.35:578][512]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite2)
+[2016.04.09-14.45.36:401][543]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.45.37:245][568]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.45.37:775][584]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.45.39:355][642]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.45.40:647][690]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.45.48:207][986]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.45.50:173][ 61]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.45.53:259][179]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.45.54:003][197]LogSavePackage: Save=112.60ms
+[2016.04.09-14.45.54:003][197]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1E290A7C142FE56A4158E13870E42486F.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.45.54:005][197]LogSavePackage: Total save time: 118.13ms
+[2016.04.09-14.45.54:005][197]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.46.07:491][420]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.46.08:802][468]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.46.10:400][521]LogSavePackage: Save=113.13ms
+[2016.04.09-14.46.10:400][521]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1CA39DBF84D373811DE7F8FA9967BA515.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.46.10:402][521]LogSavePackage: Total save time: 118.33ms
+[2016.04.09-14.46.10:402][521]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.46.29:626][961]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.46.31:593][ 38]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.46.33:049][ 93]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.46.37:231][266]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.46.38:708][323]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.46.39:494][344]LogSavePackage: Save=113.66ms
+[2016.04.09-14.46.39:494][344]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel104A76D434B183A12BEB09BBD92B631D0.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.46.39:507][344]LogSavePackage: Total save time: 129.79ms
+[2016.04.09-14.46.39:507][344]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.47.03:207][194]LogPrimitiveComponent: Zero scaling not supported (/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.PlayerStart_9.CollisionCapsule)
+[2016.04.09-14.47.06:289][304]LogSavePackage: Save=128.95ms
+[2016.04.09-14.47.06:289][304]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1AC221C384A380951A57107BCFC10038D.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.47.06:292][304]LogSavePackage: Total save time: 143.65ms
+[2016.04.09-14.47.06:292][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.47.18:611][511]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.47.20:013][564]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.47.20:524][580]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite6)
+[2016.04.09-14.47.21:350][609]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.47.23:778][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.04.09-14.47.25:168][720]LogSavePackage: Save=111.94ms
+[2016.04.09-14.47.25:168][720]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel12C180E4B4E8F828B3D0144B22DAED17A.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.47.25:170][720]LogSavePackage: Total save time: 117.19ms
+[2016.04.09-14.47.25:170][720]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.47.34:234][825]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.47.35:070][855]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.47.38:917][976]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 108 classes and 0 folders.
+[2016.04.09-14.47.43:618][111]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.47.45:676][189]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.47.46:895][234]LogEditorViewport: Clicking Background
+[2016.04.09-14.47.47:879][271]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.47.51:838][427]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.47.55:288][562]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.47.56:065][580]LogSavePackage: Save=112.43ms
+[2016.04.09-14.47.56:065][580]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel17B7AE576439B2F89AD52FFB0B74C0375.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.47.56:068][580]LogSavePackage: Total save time: 121.65ms
+[2016.04.09-14.47.56:068][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.48.06:837][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.04.09-14.48.07:460][747]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.48.10:393][837]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.48.10:575][841]LogEditorViewport: Clicking on Component (LMB): CameraComponent (SideViewCameraComponent)
+[2016.04.09-14.48.17:499][ 88]LogSavePackage: Save=125.10ms
+[2016.04.09-14.48.17:499][ 88]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1CFF41A9344EC87799D526DB44FF4C0AA.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.48.17:502][ 88]LogSavePackage: Total save time: 135.60ms
+[2016.04.09-14.48.17:502][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.48.46:922][830]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.09-14.48.59:734][367]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2016.04.09-14.49.00:764][399]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCylinder)
+[2016.04.09-14.49.02:841][463]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2016.04.09-14.49.04:458][511]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2016.04.09-14.49.05:231][536]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2016.04.09-14.49.05:814][554]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2016.04.09-14.49.06:140][561]LogEditorViewport: Clicking on Actor (double click): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.49.06:168][561]Cmd: DELETE
+[2016.04.09-14.49.06:168][561]Cmd: ACTOR DELETE
+[2016.04.09-14.49.06:169][561]LogEditorActor: Deleted Actor: 2DSideScrollerCharacter_C
+[2016.04.09-14.49.06:205][561]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2016.04.09-14.49.06:390][568]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.49.06:437][569]Cmd: DELETE
+[2016.04.09-14.49.06:437][569]Cmd: ACTOR DELETE
+[2016.04.09-14.49.06:438][569]LogEditorActor: Deleted Actor: PlayerStart
+[2016.04.09-14.49.06:451][569]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2016.04.09-14.49.08:062][634]Cmd: TRANSACTION UNDO
+[2016.04.09-14.49.08:062][634]LogEditorTransaction: Undo Delete Actors
+[2016.04.09-14.49.08:101][634]LogPrimitiveComponent: Zero scaling not supported (/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.PlayerStart_9.CollisionCapsule)
+[2016.04.09-14.49.08:303][642]Cmd: TRANSACTION UNDO
+[2016.04.09-14.49.08:303][642]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-14.49.08:471][648]Cmd: TRANSACTION UNDO
+[2016.04.09-14.49.08:471][648]LogEditorTransaction: Undo Delete Actors
+[2016.04.09-14.49.08:909][662]Cmd: TRANSACTION UNDO
+[2016.04.09-14.49.08:909][662]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2016.04.09-14.49.09:286][674]Cmd: TRANSACTION UNDO
+[2016.04.09-14.49.09:286][674]LogEditorTransaction: Undo Clicking on Components
+[2016.04.09-14.49.09:722][688]Cmd: TRANSACTION UNDO
+[2016.04.09-14.49.09:722][688]LogEditorTransaction: Undo Clicking on Components
+[2016.04.09-14.49.10:147][702]Cmd: TRANSACTION UNDO
+[2016.04.09-14.49.10:147][702]LogEditorTransaction: Undo Clicking on Components
+[2016.04.09-14.49.12:204][766]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.49.13:119][801]Cmd: DELETE
+[2016.04.09-14.49.13:119][801]Cmd: ACTOR DELETE
+[2016.04.09-14.49.13:120][801]LogEditorActor: Deleted Actor: PlayerStart
+[2016.04.09-14.49.13:145][801]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2016.04.09-14.49.13:836][829]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.49.14:275][842]Cmd: DELETE
+[2016.04.09-14.49.14:275][842]Cmd: ACTOR DELETE
+[2016.04.09-14.49.14:275][842]LogEditorActor: Deleted Actor: 2DSideScrollerCharacter_C
+[2016.04.09-14.49.14:340][842]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2016.04.09-14.49.34:660][607]LogSavePackage: Save=112.29ms
+[2016.04.09-14.49.34:660][607]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1C59B66D8447116C4F1701CAB1C82F043.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.49.34:662][607]LogSavePackage: Total save time: 116.93ms
+[2016.04.09-14.49.34:662][607]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.49.43:033][698]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite2)
+[2016.04.09-14.49.46:456][828]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.49.47:909][886]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.49.49:266][938]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.49.50:343][978]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.49.50:800][994]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.49.57:685][214]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite2)
+[2016.04.09-14.49.58:692][253]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite2)
+[2016.04.09-14.50.02:632][406]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.50.06:828][541]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite2)
+[2016.04.09-14.50.07:682][573]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.50.10:521][684]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.50.13:333][794]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.50.16:008][900]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.50.17:410][954]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.50.17:731][965]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite5)
+[2016.04.09-14.50.21:129][ 95]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.50.23:402][165]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite2)
+[2016.04.09-14.50.23:899][182]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (background_Sprite2)
+[2016.04.09-14.50.24:685][225]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite2)
+[2016.04.09-14.50.26:271][283]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite5)
+[2016.04.09-14.50.29:349][401]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.50.32:752][532]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.50.33:160][546]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.50.37:413][673]LogSavePackage: Save=112.91ms
+[2016.04.09-14.50.37:413][673]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel15D9809C843633232A348429389966233.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.50.37:416][673]LogSavePackage: Total save time: 118.88ms
+[2016.04.09-14.50.37:416][673]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.55.03:765][158]LogSavePackage: Save=124.63ms
+[2016.04.09-14.55.03:765][158]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1_Auto213E4B7474DE4D19165B5308403B717D1.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto2.umap'
+[2016.04.09-14.55.03:767][158]LogSavePackage: Total save time: 133.61ms
+[2016.04.09-14.55.03:767][158]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto2.umap
+[2016.04.09-14.55.03:768][158]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level1' took 0.156
+[2016.04.09-14.55.03:768][158]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.156
+[2016.04.09-14.56.05:891][174]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite2)
+[2016.04.09-14.56.06:562][198]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.56.09:402][307]Cmd: DELETE
+[2016.04.09-14.56.09:402][307]Cmd: ACTOR DELETE
+[2016.04.09-14.56.09:403][307]LogEditorActor: Deleted Actor: PlayerStart
+[2016.04.09-14.56.09:428][307]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2016.04.09-14.56.10:306][342]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.56.10:999][361]Cmd: DELETE
+[2016.04.09-14.56.10:999][361]Cmd: ACTOR DELETE
+[2016.04.09-14.56.11:001][361]LogEditorActor: Deleted Actor: 2DSideScrollerCharacter_C
+[2016.04.09-14.56.11:056][361]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2016.04.09-14.56.31:070][135]LogSavePackage: Save=125.87ms
+[2016.04.09-14.56.31:070][135]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1C49DF6B148817DCC91A655A3B84AF0F4.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.56.31:074][135]LogSavePackage: Total save time: 140.34ms
+[2016.04.09-14.56.31:074][135]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.57.11:998][253]LogSavePackage: Save=11.08ms
+[2016.04.09-14.57.11:998][253]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/2DSideScrollerGameModeD5216CBD44A745D7D571238770CA8AC7.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.uasset'
+[2016.04.09-14.57.12:001][253]LogSavePackage: Total save time: 20.86ms
+[2016.04.09-14.57.12:001][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.uasset
+[2016.04.09-14.57.12:162][253]LogSavePackage: Save=113.78ms
+[2016.04.09-14.57.12:162][253]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1FA0ABD7D4DB893A9F26891B4001C9E94.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.57.12:164][253]LogSavePackage: Total save time: 119.03ms
+[2016.04.09-14.57.12:164][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.57.28:359][483]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.57.28:681][492]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.57.32:016][628]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.57.38:330][873]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.57.39:889][933]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.57.40:448][954]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.57.44:904][ 88]LogSavePackage: Save=112.72ms
+[2016.04.09-14.57.44:904][ 88]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1065A10434D1C5AEAF30A01A5C21C91BD.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.57.44:906][ 88]LogSavePackage: Total save time: 118.32ms
+[2016.04.09-14.57.44:906][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.58.07:367][310]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.58.08:645][360]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.58.09:831][405]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.58.11:269][463]Cmd: DELETE
+[2016.04.09-14.58.11:269][463]Cmd: ACTOR DELETE
+[2016.04.09-14.58.11:270][463]LogEditorActor: Deleted Actor: PlayerStart
+[2016.04.09-14.58.11:301][463]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2016.04.09-14.58.15:647][625]LogSavePackage: Save=124.77ms
+[2016.04.09-14.58.15:647][625]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel137C6C77F4AF03B9C06BAED9668073FA0.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.58.15:649][625]LogSavePackage: Total save time: 139.19ms
+[2016.04.09-14.58.15:649][625]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.58.35:104][ 85]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-14.58.36:035][114]Cmd: DELETE
+[2016.04.09-14.58.36:035][114]Cmd: ACTOR DELETE
+[2016.04.09-14.58.36:035][114]LogEditorActor: Deleted Actor: 2DSideScrollerCharacter_C
+[2016.04.09-14.58.36:100][114]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2016.04.09-14.58.37:540][162]LogSavePackage: Save=159.94ms
+[2016.04.09-14.58.37:540][162]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1992141E34A40B9A908A215AF76E70B9B.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.58.37:583][162]LogSavePackage: Total save time: 205.91ms
+[2016.04.09-14.58.37:583][162]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.58.59:049][419]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-14.59.00:898][491]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-14.59.06:504][701]LogSavePackage: Save=94.41ms
+[2016.04.09-14.59.06:504][701]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1587094904EACE545C5750C9E84DF11F6.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.59.06:506][701]LogSavePackage: Total save time: 99.75ms
+[2016.04.09-14.59.06:506][701]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-14.59.55:993][ 70]LogSavePackage: Save=93.20ms
+[2016.04.09-14.59.55:993][ 70]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1E848F2C64198DD6AA60CA18A64440142.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-14.59.55:996][ 70]LogSavePackage: Total save time: 98.78ms
+[2016.04.09-14.59.55:996][ 70]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.00.21:860][357]LogAIModule: Creating AISystem for world TestMap
+[2016.04.09-15.00.23:412][357]LogSavePackage: Save=91.86ms
+[2016.04.09-15.00.23:412][357]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level150C5D7254BA8767CD2127F93EC1B8E7B.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap'
+[2016.04.09-15.00.23:416][357]LogSavePackage: Total save time: 102.63ms
+[2016.04.09-15.00.23:416][357]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap
+[2016.04.09-15.00.23:566][357]LogFileHelpers: Saving map 'Level1' took 0.319
+[2016.04.09-15.00.23:569][357]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-15.00.23:570][357]LightingResults: New page: Lighting Build
+[2016.04.09-15.00.23:600][357]LoadErrors: New page: Loading map: TestMap.umap
+[2016.04.09-15.00.23:602][357]MapCheck: New page: Map Check
+[2016.04.09-15.00.23:602][357]LightingResults: New page: Lighting Build
+[2016.04.09-15.00.23:679][357]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-15.00.23:706][357]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-15.00.23:753][357]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.165ms to complete.
+[2016.04.09-15.00.23:753][357]LogFileHelpers: Loading map 'TestMap' took 0.188
+[2016.04.09-15.00.25:970][463]LogSavePackage: Save=89.45ms
+[2016.04.09-15.00.25:970][463]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCTestMapD96EB8224D202D20EF583D8B3128B0DC.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTestMap.umap'
+[2016.04.09-15.00.25:973][463]LogSavePackage: Total save time: 98.77ms
+[2016.04.09-15.00.25:973][463]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTestMap.umap
+[2016.04.09-15.01.15:862][253]BlueprintLog: New page: Compile MainMenu
+[2016.04.09-15.01.15:962][253]BlueprintEditorCompileResults: Info [5899.88] Compile of MainMenu successful! [in 100 ms]
+[2016.04.09-15.01.16:202][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/MainMenu" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset" SILENT=true
+[2016.04.09-15.01.16:306][261]LogSavePackage: Save=84.09ms
+[2016.04.09-15.01.16:306][261]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenu98E0E6B1471BA02623FD268C43DB095E.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset'
+[2016.04.09-15.01.16:310][261]LogSavePackage: Total save time: 102.77ms
+[2016.04.09-15.01.16:310][261]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset
+[2016.04.09-15.01.17:968][330]LogSavePackage: Save=88.89ms
+[2016.04.09-15.01.17:968][330]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCTestMapB78F7DA846EBA49CADDA3FA1CBEFB383.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTestMap.umap'
+[2016.04.09-15.01.17:971][330]LogSavePackage: Total save time: 94.55ms
+[2016.04.09-15.01.17:971][330]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTestMap.umap
+[2016.04.09-15.01.34:419][480]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2016.04.09-15.01.34:832][497]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.04.09-15.01.39:434][720]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2016.04.09-15.01.39:638][728]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2016.04.09-15.01.40:446][767]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.01.57:138][656]LogAIModule: Creating AISystem for world Level1
+[2016.04.09-15.01.57:166][656]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-15.01.57:166][656]LightingResults: New page: Lighting Build
+[2016.04.09-15.01.57:185][656]LoadErrors: New page: Loading map: Level1.umap
+[2016.04.09-15.01.57:209][656]MapCheck: New page: Map Check
+[2016.04.09-15.01.57:209][656]LightingResults: New page: Lighting Build
+[2016.04.09-15.01.57:312][656]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-15.01.57:356][656]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-15.01.57:405][656]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.234ms to complete.
+[2016.04.09-15.01.57:405][656]LogFileHelpers: Loading map 'Level1' took 0.240
+[2016.04.09-15.02.56:593][195]LogSavePackage: Save=128.85ms
+[2016.04.09-15.02.56:593][195]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1AB616F0043C8E9958B7EB5884F6B57C8.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.02.56:607][195]LogSavePackage: Total save time: 155.73ms
+[2016.04.09-15.02.56:607][195]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.03.19:136][443]LogSavePackage: Save=130.30ms
+[2016.04.09-15.03.19:136][443]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel18946C9624BDF6FD4DC3FAE9196E7AAEC.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.03.19:140][443]LogSavePackage: Total save time: 227.15ms
+[2016.04.09-15.03.19:140][443]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.03.58:327][484]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-15.03.59:232][517]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.04.24:212][693]LogSavePackage: Save=113.75ms
+[2016.04.09-15.04.24:212][693]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel13BE409A14BE5DFC2114C5FBB79D189E0.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.04.24:214][693]LogSavePackage: Total save time: 124.52ms
+[2016.04.09-15.04.24:214][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.04.43:720][827]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.04.44:176][841]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.04.44:996][868]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.04.45:891][894]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.04.45:921][894]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2016.04.09-15.04.46:766][920]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2016.04.09-15.04.53:331][134]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-15.04.54:895][194]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-15.04.57:994][316]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-15.04.59:105][349]LogSavePackage: Save=116.33ms
+[2016.04.09-15.04.59:105][349]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel116E86ABA45A468F0B36C828370FC521A.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.04.59:118][349]LogSavePackage: Total save time: 138.55ms
+[2016.04.09-15.04.59:118][349]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.05.13:270][487]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.05.19:616][688]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-15.05.20:865][726]LogSavePackage: Save=115.06ms
+[2016.04.09-15.05.20:865][726]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1E293D4794FB1341A40FA4A9A5C920D21.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.05.20:867][726]LogSavePackage: Total save time: 125.54ms
+[2016.04.09-15.05.20:867][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.05.40:078][843]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-15.05.40:652][865]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.06.02:590][683]LogSavePackage: Save=111.90ms
+[2016.04.09-15.06.02:590][683]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel11E9CF0354C6DC6CB1F927BB20456CD51.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.06.02:592][683]LogSavePackage: Total save time: 126.00ms
+[2016.04.09-15.06.02:592][683]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.06.26:214][887]LogSavePackage: Save=111.99ms
+[2016.04.09-15.06.26:214][887]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel16B55D377413E3BECD643A586327C5410.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.06.26:217][887]LogSavePackage: Total save time: 122.62ms
+[2016.04.09-15.06.26:217][887]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.07.43:002][228]LogSavePackage: Save=112.58ms
+[2016.04.09-15.07.43:002][228]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1686C4A2A4026466C6F28DF8D8EF45E28.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.07.43:016][228]LogSavePackage: Total save time: 134.77ms
+[2016.04.09-15.07.43:016][228]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.08.01:862][467]LogSavePackage: Save=111.86ms
+[2016.04.09-15.08.01:862][467]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel140DF03F1463D4C14583CB389A427D05C.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.08.01:864][467]LogSavePackage: Total save time: 121.47ms
+[2016.04.09-15.08.01:864][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.10.05:469][601]LogSavePackage: Save=112.23ms
+[2016.04.09-15.10.05:469][601]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1B781EE2A43BDB649665A6C84531E9690.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.10.05:482][601]LogSavePackage: Total save time: 134.07ms
+[2016.04.09-15.10.05:482][601]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.10.28:748][743]LogSavePackage: Save=113.38ms
+[2016.04.09-15.10.28:748][743]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1C943101B4DB1FA2E569B3CA1357539FB.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.10.28:750][743]LogSavePackage: Total save time: 123.92ms
+[2016.04.09-15.10.28:750][743]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.10.51:775][139]LogSavePackage: Save=111.74ms
+[2016.04.09-15.10.51:775][139]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1129ACCED4039CEFC9E7E87AF2D9BF5C1.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.10.51:777][139]LogSavePackage: Total save time: 122.21ms
+[2016.04.09-15.10.51:777][139]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.11.58:113][512]LogSavePackage: Save=152.55ms
+[2016.04.09-15.11.58:113][512]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1_Auto3B50A9B094651369A320F72BF391207E8.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto3.umap'
+[2016.04.09-15.11.58:115][512]LogSavePackage: Total save time: 168.36ms
+[2016.04.09-15.11.58:115][512]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto3.umap
+[2016.04.09-15.11.58:117][512]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level1' took 0.190
+[2016.04.09-15.11.58:117][512]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.190
+[2016.04.09-15.12.38:757][827]LogEditorViewport: Clicking Background
+[2016.04.09-15.12.40:657][902]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.12.41:791][937]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-15.12.45:689][ 88]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.13.29:253][940]LogSavePackage: Save=111.28ms
+[2016.04.09-15.13.29:253][940]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1EF70D0BF4A88C1D915E43AB00F595762.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.13.29:256][940]LogSavePackage: Total save time: 117.38ms
+[2016.04.09-15.13.29:256][940]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.14.13:744][442]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-15.14.15:299][502]LogEditorViewport: Clicking Background
+[2016.04.09-15.14.15:810][521]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.14.37:044][216]LogSavePackage: Save=111.88ms
+[2016.04.09-15.14.37:044][216]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1F8E4D229470791C0082A84991DB93B06.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.14.37:047][216]LogSavePackage: Total save time: 122.93ms
+[2016.04.09-15.14.37:047][216]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.15.09:350][406]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-15.15.10:223][437]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-15.15.14:072][589]Cmd: DELETE
+[2016.04.09-15.15.14:072][589]Cmd: ACTOR DELETE
+[2016.04.09-15.15.14:073][589]LogEditorActor: Deleted Actor: PlayerStart
+[2016.04.09-15.15.14:099][589]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2016.04.09-15.15.16:035][669]LogEditorViewport: Clicking Background
+[2016.04.09-15.15.21:912][906]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.15.30:220][172]LogSavePackage: Save=112.40ms
+[2016.04.09-15.15.30:220][172]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel13ACC41404BF86EC3B441C6B9D400FEDD.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.15.30:222][172]LogSavePackage: Total save time: 123.12ms
+[2016.04.09-15.15.30:222][172]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.15.45:339][274]Cmd: TRANSACTION UNDO
+[2016.04.09-15.15.45:339][274]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-15.15.45:920][305]Cmd: TRANSACTION UNDO
+[2016.04.09-15.15.45:920][305]LogEditorTransaction: Undo Clicking Background
+[2016.04.09-15.15.46:448][336]Cmd: TRANSACTION UNDO
+[2016.04.09-15.15.46:448][336]LogEditorTransaction: Undo Delete Actors
+[2016.04.09-15.15.53:834][631]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.09-15.16.03:472][ 21]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.16.08:156][172]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-15.16.08:933][201]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-15.16.09:807][232]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-15.16.10:459][258]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-15.16.10:865][273]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-15.16.17:976][555]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.16.19:966][618]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-15.16.21:571][679]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-15.16.22:258][704]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-15.16.28:956][969]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.16.37:043][232]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite2)
+[2016.04.09-15.16.38:161][274]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-15.16.39:286][316]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.16.40:798][363]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-15.17.19:614][931]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.17.20:734][966]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-15.17.31:660][401]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.18.53:511][988]LogSavePackage: Save=112.33ms
+[2016.04.09-15.18.53:511][988]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel106E4843B4219C51FFC2ED586F547DB9C.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.18.53:514][988]LogSavePackage: Total save time: 127.81ms
+[2016.04.09-15.18.53:514][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.18.58:917][ 76]LogSavePackage: Save=111.75ms
+[2016.04.09-15.18.58:917][ 76]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel159F25D0C40598262BBE94A81B3198A6E.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.18.58:920][ 76]LogSavePackage: Total save time: 117.50ms
+[2016.04.09-15.18.58:920][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.19.25:052][391]Cmd: TRANSACTION UNDO
+[2016.04.09-15.19.25:052][391]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-15.19.25:324][401]Cmd: TRANSACTION UNDO
+[2016.04.09-15.19.25:324][401]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-15.19.25:740][418]Cmd: TRANSACTION UNDO
+[2016.04.09-15.19.25:740][418]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-15.19.26:117][438]Cmd: TRANSACTION UNDO
+[2016.04.09-15.19.26:117][438]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2016.04.09-15.19.26:522][454]Cmd: TRANSACTION UNDO
+[2016.04.09-15.19.26:522][454]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2016.04.09-15.19.26:877][468]Cmd: TRANSACTION UNDO
+[2016.04.09-15.19.26:877][468]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-15.19.27:391][484]Cmd: TRANSACTION UNDO
+[2016.04.09-15.19.27:391][484]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-15.19.27:817][500]Cmd: TRANSACTION UNDO
+[2016.04.09-15.19.27:817][500]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-15.19.28:213][515]Cmd: TRANSACTION UNDO
+[2016.04.09-15.19.28:213][515]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-15.19.28:650][529]Cmd: TRANSACTION UNDO
+[2016.04.09-15.19.28:651][529]LogEditorTransaction: Undo Set actor scale
+[2016.04.09-15.19.29:050][542]Cmd: TRANSACTION UNDO
+[2016.04.09-15.19.29:050][542]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-15.19.29:524][560]Cmd: TRANSACTION UNDO
+[2016.04.09-15.19.29:524][560]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.09-15.19.31:296][629]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-15.22.50:889][400]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.04.09-15.22.51:019][400]BlueprintEditorCompileResults: Info [7194.92] Compile of 2DSideScrollerCharacter successful! [in 129 ms]
+[2016.04.09-15.22.54:177][478]LogSavePackage: Save=174.91ms
+[2016.04.09-15.22.54:177][478]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/2DSideScrollerCharacterCEE50AD046FB2678FB0B059C5B6AC657.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.04.09-15.22.54:181][478]LogSavePackage: Total save time: 227.13ms
+[2016.04.09-15.22.54:181][478]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.04.09-15.22.54:332][478]LogSavePackage: Save=110.41ms
+[2016.04.09-15.22.54:332][478]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1D854EF794BEC3A9EE4457C9F33881EA6.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.22.54:335][478]LogSavePackage: Total save time: 116.21ms
+[2016.04.09-15.22.54:335][478]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.23.20:926][601]LogSavePackage: Save=111.08ms
+[2016.04.09-15.23.20:926][601]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1_Auto46C1B9E0D44BEC8026A4717BD025D2999.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto4.umap'
+[2016.04.09-15.23.20:927][601]LogSavePackage: Total save time: 120.54ms
+[2016.04.09-15.23.20:927][601]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto4.umap
+[2016.04.09-15.23.20:929][601]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level1' took 0.141
+[2016.04.09-15.23.20:929][601]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
+[2016.04.09-15.23.38:636][411]LogEditorTransaction: Undo Move Node
+[2016.04.09-15.23.38:816][416]LogEditorTransaction: Undo Change Number Pin Value
+[2016.04.09-15.23.39:178][427]LogEditorTransaction: Undo Create Pin Link
+[2016.04.09-15.23.39:477][439]LogEditorTransaction: Undo Change Number Pin Value
+[2016.04.09-15.23.39:836][451]LogEditorTransaction: Undo Create Pin Link
+[2016.04.09-15.23.40:183][464]LogEditorTransaction: Undo Create Pin Link
+[2016.04.09-15.23.40:568][477]LogEditorTransaction: Undo Move Node
+[2016.04.09-15.23.40:927][489]LogEditorTransaction: Undo Add Node
+[2016.04.09-15.23.41:314][502]LogEditorTransaction: Undo Move Node
+[2016.04.09-15.23.41:672][514]LogEditorTransaction: Undo Add Node
+[2016.04.09-15.23.42:055][527]LogEditorTransaction: Undo Move Node
+[2016.04.09-15.23.42:492][542]LogEditorTransaction: Undo Move Node
+[2016.04.09-15.23.42:902][556]LogEditorTransaction: Undo Add Node
+[2016.04.09-15.23.43:391][573]LogEditorTransaction: Undo Move Nodes
+[2016.04.09-15.23.43:960][593]LogEditorTransaction: Undo Break Pin Link
+[2016.04.09-15.23.44:425][609]LogEditorTransaction: Undo Break Pin Link
+[2016.04.09-15.23.44:755][620]LogEditorTransaction: Undo Delete current selection
+[2016.04.09-15.24.01:731][397]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1326.EdGraphPin_28855''
+[2016.04.09-15.24.01:731][397]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1326.EdGraphPin_28855''
+[2016.04.09-15.24.21:335][284]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.04.09-15.24.21:480][284]BlueprintEditorCompileResults: Info [7285.38] Compile of 2DSideScrollerCharacter successful! [in 145 ms]
+[2016.04.09-15.24.24:629][357]LogSavePackage: Save=175.78ms
+[2016.04.09-15.24.24:629][357]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/2DSideScrollerCharacter02BF498D4497FE8E8A505F93D9990559.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.04.09-15.24.24:632][357]LogSavePackage: Total save time: 181.79ms
+[2016.04.09-15.24.24:632][357]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.04.09-15.24.24:790][357]LogSavePackage: Save=117.99ms
+[2016.04.09-15.24.24:790][357]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1831C779D45D19C18D86379B6566F146D.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.24.24:793][357]LogSavePackage: Total save time: 127.07ms
+[2016.04.09-15.24.24:793][357]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.24.34:214][476]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite2)
+[2016.04.09-15.24.58:916][579]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.04.09-15.24.59:045][579]BlueprintEditorCompileResults: Info [7322.94] Compile of 2DSideScrollerCharacter successful! [in 128 ms]
+[2016.04.09-15.25.02:196][645]LogSavePackage: Save=179.69ms
+[2016.04.09-15.25.02:196][645]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/2DSideScrollerCharacter3987BB1C4F3D9D896F1481BEF0971AF1.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.04.09-15.25.02:200][645]LogSavePackage: Total save time: 191.54ms
+[2016.04.09-15.25.02:200][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.04.09-15.25.02:355][645]LogSavePackage: Save=110.84ms
+[2016.04.09-15.25.02:355][645]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel15BDEF66344C45590C67F3A88F751B32D.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.25.02:358][645]LogSavePackage: Total save time: 116.62ms
+[2016.04.09-15.25.02:358][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.25.15:154][832]LogAIModule: Creating AISystem for world TestMap
+[2016.04.09-15.25.16:331][832]LogSavePackage: Save=110.84ms
+[2016.04.09-15.25.16:331][832]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1EE56BCBE4A739A6C3A4C65931B381076.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap'
+[2016.04.09-15.25.16:334][832]LogSavePackage: Total save time: 123.05ms
+[2016.04.09-15.25.16:334][832]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap
+[2016.04.09-15.25.16:429][832]LogFileHelpers: Saving map 'Level1' took 0.285
+[2016.04.09-15.25.16:436][832]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-15.25.16:436][832]LightingResults: New page: Lighting Build
+[2016.04.09-15.25.16:474][832]LoadErrors: New page: Loading map: TestMap.umap
+[2016.04.09-15.25.16:477][832]MapCheck: New page: Map Check
+[2016.04.09-15.25.16:477][832]LightingResults: New page: Lighting Build
+[2016.04.09-15.25.16:590][832]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-15.25.16:617][832]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-15.25.16:664][832]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.473ms to complete.
+[2016.04.09-15.25.16:670][832]LogFileHelpers: Loading map 'TestMap' took 0.241
+[2016.04.09-15.25.18:651][936]LogSavePackage: Save=90.01ms
+[2016.04.09-15.25.18:651][936]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCTestMap3F2300194C10F5D23F6E6680EE4F5FBD.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTestMap.umap'
+[2016.04.09-15.25.18:654][936]LogSavePackage: Total save time: 99.19ms
+[2016.04.09-15.25.18:654][936]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTestMap.umap
+[2016.04.09-15.25.47:283][  0]LogSavePackage: Save=175.67ms
+[2016.04.09-15.25.47:283][  0]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/2DSideScrollerCharacterBE1D4A784BF31EC02D204DB77EEAEB09.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.04.09-15.25.47:286][  0]LogSavePackage: Total save time: 187.54ms
+[2016.04.09-15.25.47:286][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.04.09-15.25.47:904][ 31]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.04.09-15.25.48:043][ 31]BlueprintEditorCompileResults: Info [7371.94] Compile of 2DSideScrollerCharacter successful! [in 138 ms]
+[2016.04.09-15.25.49:489][ 95]LogSavePackage: Save=87.40ms
+[2016.04.09-15.25.49:489][ 95]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCTestMap810C7F4B4A2A5DFF31D065AA24CA8E22.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTestMap.umap'
+[2016.04.09-15.25.49:491][ 95]LogSavePackage: Total save time: 93.01ms
+[2016.04.09-15.25.49:491][ 95]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCTestMap.umap
+[2016.04.09-15.26.17:790][535]LogAIModule: Creating AISystem for world Level1
+[2016.04.09-15.26.18:863][535]LogSavePackage: Save=89.97ms
+[2016.04.09-15.26.18:864][535]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/TestMapC53F902A491DF6268EE2A3B2D0C55B8E.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TestMap.umap'
+[2016.04.09-15.26.18:867][535]LogSavePackage: Total save time: 102.62ms
+[2016.04.09-15.26.18:867][535]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TestMap.umap
+[2016.04.09-15.26.18:894][535]LogFileHelpers: Saving map 'TestMap' took 0.194
+[2016.04.09-15.26.18:895][535]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-15.26.18:896][535]LightingResults: New page: Lighting Build
+[2016.04.09-15.26.18:913][535]LoadErrors: New page: Loading map: Level1.umap
+[2016.04.09-15.26.18:913][535]MapCheck: New page: Map Check
+[2016.04.09-15.26.18:913][535]LightingResults: New page: Lighting Build
+[2016.04.09-15.26.19:058][535]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-15.26.19:085][535]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-15.26.19:132][535]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.255ms to complete.
+[2016.04.09-15.26.19:134][535]LogFileHelpers: Loading map 'Level1' took 0.240
+[2016.04.09-15.26.21:456][631]LogSavePackage: Save=111.23ms
+[2016.04.09-15.26.21:456][631]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1AABB26094C8410C3ECF3ECB724A39951.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.26.21:459][631]LogSavePackage: Total save time: 117.69ms
+[2016.04.09-15.26.21:459][631]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.26.49:714][187]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.04.09-15.26.49:854][187]BlueprintEditorCompileResults: Info [7433.75] Compile of 2DSideScrollerCharacter successful! [in 140 ms]
+[2016.04.09-15.26.52:761][304]LogEditorViewport: Clicking Background
+[2016.04.09-15.26.53:460][334]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.27.00:108][576]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-15.27.00:974][611]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-15.27.01:321][626]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.27.04:001][652]LogSavePackage: Save=176.42ms
+[2016.04.09-15.27.04:001][652]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/2DSideScrollerCharacterB97D095049380B29A99D4E95C9DDD730.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.04.09-15.27.04:016][652]LogSavePackage: Total save time: 200.36ms
+[2016.04.09-15.27.04:016][652]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.04.09-15.27.04:165][652]LogSavePackage: Save=112.94ms
+[2016.04.09-15.27.04:165][652]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1EBAF971D4C9453F0E78882A5707235F3.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.27.04:167][652]LogSavePackage: Total save time: 118.84ms
+[2016.04.09-15.27.04:167][652]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.27.38:558][117]LogSavePackage: Save=175.01ms
+[2016.04.09-15.27.38:558][117]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/2DSideScrollerCharacterE983FC6447723EEFFD874D95BC73199F.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.04.09-15.27.38:561][117]LogSavePackage: Total save time: 187.01ms
+[2016.04.09-15.27.38:561][117]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.04.09-15.27.43:423][271]LogSavePackage: Save=111.37ms
+[2016.04.09-15.27.43:423][271]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1D1EB45234E80A70723A145B3C5C064C7.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.27.43:425][271]LogSavePackage: Total save time: 117.37ms
+[2016.04.09-15.27.43:425][271]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.28.07:327][630]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.04.09-15.28.07:497][630]BlueprintEditorCompileResults: Info [7511.39] Compile of 2DSideScrollerCharacter successful! [in 170 ms]
+[2016.04.09-15.28.10:458][680]LogSavePackage: Save=177.01ms
+[2016.04.09-15.28.10:459][680]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/2DSideScrollerCharacter72AE1F3F4FB8F969E13B4094A9CB3230.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.04.09-15.28.10:462][680]LogSavePackage: Total save time: 193.47ms
+[2016.04.09-15.28.10:462][680]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.04.09-15.28.10:631][680]LogSavePackage: Save=125.63ms
+[2016.04.09-15.28.10:631][680]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel103D05DF2488B75AFD06BC5A7C1F8DE34.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.28.10:632][680]LogSavePackage: Total save time: 130.63ms
+[2016.04.09-15.28.10:632][680]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.28.49:421][ 23]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.04.09-15.28.49:590][ 23]BlueprintEditorCompileResults: Info [7553.48] Compile of 2DSideScrollerCharacter successful! [in 167 ms]
+[2016.04.09-15.28.52:462][ 80]LogSavePackage: Save=176.12ms
+[2016.04.09-15.28.52:462][ 80]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/2DSideScrollerCharacter9741C905480A0137C99F309555B309B7.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.04.09-15.28.52:465][ 80]LogSavePackage: Total save time: 188.22ms
+[2016.04.09-15.28.52:465][ 80]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.04.09-15.28.52:624][ 80]LogSavePackage: Save=111.16ms
+[2016.04.09-15.28.52:624][ 80]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1A6214D3A467C6805A1320EBA176444CB.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.28.52:627][ 80]LogSavePackage: Total save time: 117.13ms
+[2016.04.09-15.28.52:627][ 80]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.29.34:830][518]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.29.36:273][569]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.29.36:354][569]LogEditorViewport: Clicking on Component (LMB): CameraComponent (SideViewCameraComponent)
+[2016.04.09-15.29.48:748][ 61]LogSavePackage: Save=111.25ms
+[2016.04.09-15.29.48:748][ 61]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1CEEC63E749DD50590D0C9E84367982BE.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.29.48:750][ 61]LogSavePackage: Total save time: 134.98ms
+[2016.04.09-15.29.48:750][ 61]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.30.31:588][622]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite64)
+[2016.04.09-15.30.36:549][834]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (background_Sprite56)
+[2016.04.09-15.30.37:638][880]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite62)
+[2016.04.09-15.30.38:478][915]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite64)
+[2016.04.09-15.30.39:168][943]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite63)
+[2016.04.09-15.30.39:757][967]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Wall_Tileable_Sprite50)
+[2016.04.09-15.30.40:325][991]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite57)
+[2016.04.09-15.30.40:792][  9]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite56)
+[2016.04.09-15.30.41:232][ 27]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite55)
+[2016.04.09-15.30.41:593][ 40]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite54)
+[2016.04.09-15.30.42:736][ 86]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite61)
+[2016.04.09-15.30.43:253][104]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite54)
+[2016.04.09-15.30.43:990][136]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite60)
+[2016.04.09-15.30.44:312][146]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite59)
+[2016.04.09-15.30.44:783][166]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite58)
+[2016.04.09-15.30.54:538][584]LogSavePackage: Save=112.13ms
+[2016.04.09-15.30.54:538][584]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1FDCACB3149874E230E77DA84C33128F3.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.30.54:541][584]LogSavePackage: Total save time: 123.10ms
+[2016.04.09-15.30.54:541][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.32.06:002][864]LogSavePackage: Save=119.75ms
+[2016.04.09-15.32.06:002][864]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel158E602E54E521B8505188AA73D27E10C.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.32.06:005][864]LogSavePackage: Total save time: 131.81ms
+[2016.04.09-15.32.06:005][864]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.32.39:256][ 46]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite56)
+[2016.04.09-15.32.40:069][ 78]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Wall_Tileable_Sprite49)
+[2016.04.09-15.32.45:456][312]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite54)
+[2016.04.09-15.32.46:901][375]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Wall_Tileable_Sprite50)
+[2016.04.09-15.32.52:230][595]LogSavePackage: Save=129.62ms
+[2016.04.09-15.32.52:230][595]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1C47850514EF4C23BAF277FB84AB5F8C2.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.32.52:233][595]LogSavePackage: Total save time: 141.02ms
+[2016.04.09-15.32.52:233][595]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.33.49:216][ 53]LogSavePackage: Save=112.16ms
+[2016.04.09-15.33.49:216][ 53]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level18614DA464C330C530EC5DCB18458F9C2.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap'
+[2016.04.09-15.33.49:219][ 53]LogSavePackage: Total save time: 124.70ms
+[2016.04.09-15.33.49:219][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap
+[2016.04.09-15.33.50:062][ 80]LogSavePackage: Save=111.15ms
+[2016.04.09-15.33.50:062][ 80]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel12F5CF9D749801769A70322BBCEBE1B58.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.33.50:065][ 80]LogSavePackage: Total save time: 117.52ms
+[2016.04.09-15.33.50:065][ 80]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.35.04:220][546]LogSavePackage: Save=113.60ms
+[2016.04.09-15.35.04:220][546]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1F62654E545EEA82F30BD8AB852DA4617.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap'
+[2016.04.09-15.35.04:223][546]LogSavePackage: Total save time: 128.56ms
+[2016.04.09-15.35.04:223][546]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap
+[2016.04.09-15.35.10:283][806]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-15.35.11:295][846]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite)
+[2016.04.09-15.35.11:869][869]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.04.09-15.35.16:150][ 58]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite25)
+[2016.04.09-15.35.17:027][ 95]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite8)
+[2016.04.09-15.35.17:593][117]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite20)
+[2016.04.09-15.35.31:790][746]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite67)
+[2016.04.09-15.35.34:532][867]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite69)
+[2016.04.09-15.35.35:489][908]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ice_Platform_Tileable_Sprite68)
+[2016.04.09-15.36.05:727][991]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Wall_Tileable_Sprite49)
+[2016.04.09-15.36.17:798][513]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Wall_Tileable_Sprite50)
+[2016.04.09-15.36.20:584][630]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Wall_Tileable_Sprite49)
+[2016.04.09-15.36.41:692][526]LogSavePackage: Save=112.91ms
+[2016.04.09-15.36.41:692][526]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1AD14E9624A33D9C3BA3E239D0EF1F9FC.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.36.41:696][526]LogSavePackage: Total save time: 120.41ms
+[2016.04.09-15.36.41:696][526]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.37.25:492][123]LogSavePackage: Save=111.29ms
+[2016.04.09-15.37.25:492][123]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel17529BF454C794FE702A5F2BCD8B2F4B5.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.37.25:494][123]LogSavePackage: Total save time: 122.36ms
+[2016.04.09-15.37.25:494][123]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.38.07:112][747]LogSavePackage: Save=110.95ms
+[2016.04.09-15.38.07:112][747]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel1C3DA55A040444D329C13038B6563C145.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.38.07:114][747]LogSavePackage: Total save time: 121.96ms
+[2016.04.09-15.38.07:114][747]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-15.38.59:632][626]LogAIModule: Creating AISystem for world TitleScreen
+[2016.04.09-15.39.01:085][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/Lives" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/Lives.uasset" SILENT=true
+[2016.04.09-15.39.01:101][626]LogSavePackage: Save=5.14ms
+[2016.04.09-15.39.01:101][626]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/LivesABDAF39147E1C378C639DC8735D6493D.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/Lives.uasset'
+[2016.04.09-15.39.01:105][626]LogSavePackage: Total save time: 18.11ms
+[2016.04.09-15.39.01:105][626]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/Lives.uasset
+[2016.04.09-15.39.01:288][626]LogSavePackage: Save=112.81ms
+[2016.04.09-15.39.01:288][626]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1E2B016B74D3AEEB9E44B2886CD818E28.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap'
+[2016.04.09-15.39.01:292][626]LogSavePackage: Total save time: 119.98ms
+[2016.04.09-15.39.01:292][626]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap
+[2016.04.09-15.39.01:319][626]LogFileHelpers: Saving map 'Level1' took 0.214
+[2016.04.09-15.39.01:321][626]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/TitleScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-15.39.01:321][626]LightingResults: New page: Lighting Build
+[2016.04.09-15.39.01:338][626]LoadErrors: New page: Loading map: TitleScreen.umap
+[2016.04.09-15.39.01:340][626]MapCheck: New page: Map Check
+[2016.04.09-15.39.01:340][626]LightingResults: New page: Lighting Build
+[2016.04.09-15.39.01:490][626]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-15.39.01:518][626]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-15.39.01:566][626]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.347ms to complete.
+[2016.04.09-15.39.01:566][626]LogFileHelpers: Loading map 'TitleScreen' took 0.247
+[2016.04.09-15.39.11:358][134]BlueprintLog: New page: Compile MainMenu
+[2016.04.09-15.39.11:460][134]BlueprintEditorCompileResults: Info [8175.34] Compile of MainMenu successful! [in 101 ms]
+[2016.04.09-15.39.12:043][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/MainMenu" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset" SILENT=true
+[2016.04.09-15.39.12:150][162]LogSavePackage: Save=98.35ms
+[2016.04.09-15.39.12:150][162]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenu97464773455BC200176DCF8ADCBC59FE.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset'
+[2016.04.09-15.39.12:153][162]LogSavePackage: Total save time: 108.57ms
+[2016.04.09-15.39.12:153][162]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset
+[2016.04.09-15.41.15:733][ 92]LogAIModule: Creating AISystem for world Level1
+[2016.04.09-15.41.17:176][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/MainMenu" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset" SILENT=true
+[2016.04.09-15.41.17:255][ 92]LogSavePackage: Save=73.23ms
+[2016.04.09-15.41.17:255][ 92]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/MainMenu54642A12437D94B04FC138A59749E105.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset'
+[2016.04.09-15.41.17:258][ 92]LogSavePackage: Total save time: 79.85ms
+[2016.04.09-15.41.17:258][ 92]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/MainMenu.uasset
+[2016.04.09-15.41.17:260][ 92]Cmd: MAP LOAD FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.09-15.41.17:260][ 92]LightingResults: New page: Lighting Build
+[2016.04.09-15.41.17:277][ 92]LoadErrors: New page: Loading map: Level1.umap
+[2016.04.09-15.41.17:277][ 92]MapCheck: New page: Map Check
+[2016.04.09-15.41.17:277][ 92]LightingResults: New page: Lighting Build
+[2016.04.09-15.41.17:462][ 92]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.09-15.41.17:490][ 92]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.09-15.41.17:539][ 92]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.341ms to complete.
+[2016.04.09-15.41.17:539][ 92]LogFileHelpers: Loading map 'Level1' took 0.281
+[2016.04.09-15.41.49:650][517]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite63)
+[2016.04.09-15.41.50:951][572]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2016.04.09-15.42.08:168][329]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background_Sprite63)
+[2016.04.09-15.42.08:905][358]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2016.04.09-15.43.17:975][833]BlueprintLog: New page: Compile Level1
+[2016.04.09-15.43.18:053][833]BlueprintEditorCompileResults: Info [8421.93] Compile of Level1 successful! [in 78 ms]
+[2016.04.09-15.45.47:319][664]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2016.04.09-15.48.10:502][777]AssetReimport: New page: Outstanding source content changes 4:48:10 AM
+[2016.04.09-15.48.10:504][777]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/Sprites/ice-cubes.jpg)
+[2016.04.09-15.48.10:724][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Sprites/ice-cubes" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/Sprites/ice-cubes.uasset" SILENT=true
+[2016.04.09-15.48.10:792][777]LogSavePackage: Save=66.59ms
+[2016.04.09-15.48.10:792][777]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/ice-cubesAEA4EC9F4A97D8392169FD92787FB550.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/Sprites/ice-cubes.uasset'
+[2016.04.09-15.48.10:795][777]LogSavePackage: Total save time: 69.15ms
+[2016.04.09-15.48.10:795][777]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScroller/Sprites/ice-cubes.uasset
+[2016.04.09-15.48.13:847][787]AssetReimport: Info Importing new asset /Game/2DSideScroller/Sprites/ice-cubes.
+[2016.04.09-15.52.00:814][804]LogEditorTransaction: Undo Set Vector Property
+[2016.04.09-15.52.01:150][817]Cmd: TRANSACTION UNDO
+[2016.04.09-15.52.01:150][817]LogEditorTransaction: Undo Set Vector Property
+[2016.04.09-15.52.01:506][832]Cmd: TRANSACTION UNDO
+[2016.04.09-15.52.01:506][832]LogEditorTransaction: Undo Resize Widget
+[2016.04.09-15.52.29:246][854]BlueprintLog: New page: Compile LevelClear
+[2016.04.09-15.52.29:350][854]BlueprintEditorCompileResults: Info [8973.22] Compile of LevelClear successful! [in 104 ms]
+[2016.04.09-15.52.29:907][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/LevelClear" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/LevelClear.uasset" SILENT=true
+[2016.04.09-15.52.29:934][872]LogSavePackage: Save=12.63ms
+[2016.04.09-15.52.29:934][872]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/LevelClearEEE870C64346D5AB3D096DAA39D6F311.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/LevelClear.uasset'
+[2016.04.09-15.52.29:936][872]LogSavePackage: Total save time: 27.73ms
+[2016.04.09-15.52.29:937][872]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/LevelClear.uasset
+[2016.04.09-15.53.32:745][330]LogSavePackage: Save=178.16ms
+[2016.04.09-15.53.32:745][330]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1_Auto50E5952B142F1F4FC5FFDC48AC96A040D.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto5.umap'
+[2016.04.09-15.53.32:747][330]LogSavePackage: Total save time: 186.69ms
+[2016.04.09-15.53.32:747][330]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level1_Auto5.umap
+[2016.04.09-15.53.32:748][330]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level1' took 0.211
+[2016.04.09-15.53.32:748][330]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.211
+[2016.04.09-15.53.32:753][330]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/UI/LevelClear] ([1] browsable assets)...
+[2016.04.09-15.53.32:753][330]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/UI/LevelClear]
+[2016.04.09-15.53.32:772][330]LogSavePackage: Save=14.36ms
+[2016.04.09-15.53.32:772][330]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/LevelClear_Auto5D0C0005C4896DB9B71ECCFAFA4118A52.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/UI/LevelClear_Auto5.uasset'
+[2016.04.09-15.53.32:773][330]LogSavePackage: Total save time: 19.05ms
+[2016.04.09-15.53.32:773][330]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/UI/LevelClear_Auto5.uasset
+[2016.04.09-15.53.32:773][330]LogFileHelpers: Auto-saving content packages took 0.024
+[2016.04.09-15.57.33:396][225]BlueprintLog: New page: Compile LevelClear
+[2016.04.09-15.57.33:488][225]BlueprintEditorCompileResults: Info [9277.35] Compile of LevelClear successful! [in 91 ms]
+[2016.04.09-15.58.02:430][238]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2016.04.09-15.58.02:897][255]LogEditorViewport: Clicking on Actor (context menu): TriggerBox (TriggerBox)
+[2016.04.09-15.58.27:303][617]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.09-15.59.14:555][ 14]BlueprintLog: New page: Compile Level1
+[2016.04.09-15.59.14:636][ 14]BlueprintEditorCompileResults: Info [9378.50] Compile of Level1 successful! [in 80 ms]
+[2016.04.09-15.59.17:471][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/UI/LevelClear" FILE="../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/LevelClear.uasset" SILENT=true
+[2016.04.09-15.59.17:503][ 87]LogSavePackage: Save=17.92ms
+[2016.04.09-15.59.17:503][ 87]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/LevelClearB071EA0F4415B74D2FD221950F456EF7.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/LevelClear.uasset'
+[2016.04.09-15.59.17:509][ 87]LogSavePackage: Total save time: 36.15ms
+[2016.04.09-15.59.17:509][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/UI/LevelClear.uasset
+[2016.04.09-15.59.17:730][ 87]LogSavePackage: Save=183.31ms
+[2016.04.09-15.59.17:730][ 87]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/UEDPCLevel167C762A64C6A4B27A0F7D8B3DA115777.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap'
+[2016.04.09-15.59.17:733][ 87]LogSavePackage: Total save time: 193.18ms
+[2016.04.09-15.59.17:733][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1.umap
+[2016.04.09-16.00.22:077][231]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_DeathScreen_C_0' or package '/Engine/Transient'.
+[2016.04.09-16.00.22:077][231]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_DeathScreen_C_1' or package '/Engine/Transient'.
+[2016.04.09-16.00.22:077][231]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_DeathScreen_C_33' or package '/Engine/Transient'.
+[2016.04.09-16.00.22:077][231]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_DeathScreen_C_32' or package '/Engine/Transient'.
+[2016.04.09-16.00.45:312][155]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.09-16.01.34:884][738]Cmd: CLOSE_SLATE_MAINFRAME
+[2016.04.09-16.01.36:166][738]LogSavePackage: Save=175.22ms
+[2016.04.09-16.01.36:166][738]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/2DSideScrollerCharacter7F187C434E9064AAD7787397EC20C317.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.04.09-16.01.36:169][738]LogSavePackage: Total save time: 192.39ms
+[2016.04.09-16.01.36:169][738]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.04.09-16.01.36:439][738]LogSavePackage: Save=197.56ms
+[2016.04.09-16.01.36:439][738]LogSavePackage: Moving '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Saved/Level1063EA5CC4B9374F615E9709F0F4A5BBB.tmp' to '../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap'
+[2016.04.09-16.01.36:442][738]LogSavePackage: Total save time: 204.09ms
+[2016.04.09-16.01.36:442][738]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Content/2DSideScrollerBP/Maps/Level1.umap
+[2016.04.09-16.01.36:469][738]LogFileHelpers: Saving map 'Level1' took 0.298
+[2016.04.09-16.01.36:800][739]Cmd: QUIT_EDITOR
+[2016.04.09-16.01.36:893][739]LogExit: Preparing to exit.
+[2016.04.09-16.01.37:517][739]LogExit: Editor shut down
+[2016.04.09-16.01.37:517][739]LogExit: Transaction tracking system shut down
+[2016.04.09-16.01.37:685][739]LogObj: Freed 0b from 0 cluster array pools.
+[2016.04.09-16.01.37:685][739]LogExit: Object subsystem successfully closed.
+[2016.04.09-16.01.37:703][739]LogD3D11RHI: Shutdown
+[2016.04.09-16.01.37:703][739]LogD3D11RHI: CleanupD3DDevice
+[2016.04.09-16.01.37:826][739]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.09-16.01.37:901][739]LogDerivedDataCache: Shutdown
+[2016.04.09-16.01.37:902][739]LogModuleManager: Shutting down and abandoning module SequencerWidgets (205)
+[2016.04.09-16.01.37:902][739]LogModuleManager: Shutting down and abandoning module BlueprintGraph (204)
+[2016.04.09-16.01.37:902][739]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (203)
+[2016.04.09-16.01.37:902][739]LogModuleManager: Shutting down and abandoning module CrashTracker (202)
+[2016.04.09-16.01.37:902][739]LogModuleManager: Shutting down and abandoning module SceneOutliner (201)
+[2016.04.09-16.01.37:902][739]LogModuleManager: Shutting down and abandoning module SuperSearch (200)
+[2016.04.09-16.01.37:902][739]LogModuleManager: Shutting down and abandoning module WidgetCarousel (199)
+[2016.04.09-16.01.37:902][739]LogModuleManager: Shutting down and abandoning module AddContentDialog (198)
+[2016.04.09-16.01.37:905][739]LogModuleManager: Shutting down and abandoning module GameplayTags (197)
+[2016.04.09-16.01.37:906][739]LogModuleManager: Shutting down and abandoning module EditorWidgets (196)
+[2016.04.09-16.01.37:906][739]LogModuleManager: Shutting down and abandoning module CollectionManager (195)
+[2016.04.09-16.01.37:906][739]LogModuleManager: Shutting down and abandoning module StatsViewer (194)
+[2016.04.09-16.01.37:906][739]LogModuleManager: Shutting down and abandoning module FoliageEdit (193)
+[2016.04.09-16.01.37:906][739]LogModuleManager: Shutting down and abandoning module LandscapeEditor (192)
+[2016.04.09-16.01.37:907][739]LogModuleManager: Shutting down and abandoning module ActorPickerMode (191)
+[2016.04.09-16.01.37:907][739]LogModuleManager: Shutting down and abandoning module GeometryMode (190)
+[2016.04.09-16.01.37:907][739]LogModuleManager: Shutting down and abandoning module TextureAlignMode (189)
+[2016.04.09-16.01.37:907][739]LogModuleManager: Shutting down and abandoning module BspMode (188)
+[2016.04.09-16.01.37:907][739]LogModuleManager: Shutting down and abandoning module PlacementMode (187)
+[2016.04.09-16.01.37:907][739]LogModuleManager: Shutting down and abandoning module AutomationWorker (186)
+[2016.04.09-16.01.37:907][739]LogModuleManager: Shutting down and abandoning module CharacterAI (185)
+[2016.04.09-16.01.37:907][739]LogModuleManager: Shutting down and abandoning module SmartSnapping (184)
+[2016.04.09-16.01.37:907][739]LogModuleManager: Shutting down and abandoning module ViewportSnapping (183)
+[2016.04.09-16.01.37:908][739]LogModuleManager: Shutting down and abandoning module LogVisualizer (182)
+[2016.04.09-16.01.37:908][739]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (181)
+[2016.04.09-16.01.37:908][739]LogModuleManager: Shutting down and abandoning module IntroTutorials (180)
+[2016.04.09-16.01.37:908][739]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (179)
+[2016.04.09-16.01.37:908][739]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (178)
+[2016.04.09-16.01.37:909][739]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (177)
+[2016.04.09-16.01.37:909][739]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (176)
+[2016.04.09-16.01.38:238][739]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (175)
+[2016.04.09-16.01.38:238][739]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (174)
+[2016.04.09-16.01.38:238][739]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (173)
+[2016.04.09-16.01.38:238][739]LogModuleManager: Shutting down and abandoning module MergeActors (172)
+[2016.04.09-16.01.38:238][739]LogModuleManager: Shutting down and abandoning module SizeMap (171)
+[2016.04.09-16.01.38:238][739]LogModuleManager: Shutting down and abandoning module TreeMap (170)
+[2016.04.09-16.01.38:238][739]LogModuleManager: Shutting down and abandoning module ReferenceViewer (169)
+[2016.04.09-16.01.38:238][739]LogModuleManager: Shutting down and abandoning module LocalizationService (168)
+[2016.04.09-16.01.38:238][739]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (167)
+[2016.04.09-16.01.38:238][739]LogModuleManager: Shutting down and abandoning module HardwareTargeting (166)
+[2016.04.09-16.01.38:238][739]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (165)
+[2016.04.09-16.01.38:239][739]LogModuleManager: Shutting down and abandoning module UndoHistory (164)
+[2016.04.09-16.01.38:239][739]LogModuleManager: Shutting down and abandoning module UserFeedback (163)
+[2016.04.09-16.01.38:239][739]LogModuleManager: Shutting down and abandoning module XmlParser (162)
+[2016.04.09-16.01.38:239][739]LogModuleManager: Shutting down and abandoning module Blutility (161)
+[2016.04.09-16.01.38:239][739]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (160)
+[2016.04.09-16.01.38:239][739]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (159)
+[2016.04.09-16.01.38:239][739]LogModuleManager: Shutting down and abandoning module InputBindingEditor (158)
+[2016.04.09-16.01.38:239][739]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (157)
+[2016.04.09-16.01.38:240][739]LogModuleManager: Shutting down and abandoning module SettingsEditor (156)
+[2016.04.09-16.01.38:240][739]LogModuleManager: Shutting down and abandoning module ProjectLauncher (155)
+[2016.04.09-16.01.38:240][739]LogModuleManager: Shutting down and abandoning module SessionFrontend (154)
+[2016.04.09-16.01.38:240][739]LogModuleManager: Shutting down and abandoning module ProfilerClient (153)
+[2016.04.09-16.01.38:240][739]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (152)
+[2016.04.09-16.01.38:240][739]LogModuleManager: Shutting down and abandoning module DeviceManager (151)
+[2016.04.09-16.01.38:270][739]LogModuleManager: Shutting down and abandoning module AutomationController (150)
+[2016.04.09-16.01.38:270][739]LogModuleManager: Shutting down and abandoning module AutomationWindow (149)
+[2016.04.09-16.01.38:270][739]LogModuleManager: Shutting down and abandoning module Layers (148)
+[2016.04.09-16.01.38:270][739]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (147)
+[2016.04.09-16.01.38:270][739]LogModuleManager: Shutting down and abandoning module DetailCustomizations (146)
+[2016.04.09-16.01.38:270][739]LogModuleManager: Shutting down and abandoning module PackagesDialog (145)
+[2016.04.09-16.01.38:271][739]LogModuleManager: Shutting down and abandoning module Persona (144)
+[2016.04.09-16.01.38:271][739]LogModuleManager: Shutting down and abandoning module Kismet (143)
+[2016.04.09-16.01.38:271][739]LogModuleManager: Shutting down and abandoning module GraphEditor (142)
+[2016.04.09-16.01.38:271][739]LogModuleManager: Shutting down and abandoning module ClassViewer (141)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module Toolbox (140)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module ModuleUI (139)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module MovieSceneTools (138)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module OutputLog (137)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module GammaUI (136)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module Documentation (135)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (134)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module AnalyticsET (133)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module Analytics (132)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module PortalServices (131)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module PortalRpc (130)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module MessagingRpc (129)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.04.09-16.01.38:275][739]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.04.09-16.01.38:390][739]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module SlateRemote (123)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module SteamVRController (122)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module SteamVR (121)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (120)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module OculusLibrary (119)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module OculusInput (118)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (117)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module CableComponent (116)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (115)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (114)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module HTML5Networking (113)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (112)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module PluginBrowser (111)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module EpicSurvey (110)
+[2016.04.09-16.01.38:391][739]LogModuleManager: Shutting down and abandoning module DesktopPlatform (109)
+[2016.04.09-16.01.38:392][739]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (108)
+[2016.04.09-16.01.38:392][739]LogModuleManager: Shutting down and abandoning module UObjectPlugin (107)
+[2016.04.09-16.01.38:392][739]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (106)
+[2016.04.09-16.01.38:392][739]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (105)
+[2016.04.09-16.01.38:392][739]LogModuleManager: Shutting down and abandoning module SourceControl (104)
+[2016.04.09-16.01.38:392][739]LogModuleManager: Shutting down and abandoning module GitSourceControl (103)
+[2016.04.09-16.01.38:392][739]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (102)
+[2016.04.09-16.01.38:392][739]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (101)
+[2016.04.09-16.01.38:392][739]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (100)
+[2016.04.09-16.01.38:392][739]LogModuleManager: Shutting down and abandoning module MeshPaint (99)
+[2016.04.09-16.01.38:392][739]LogModuleManager: Shutting down and abandoning module HotReload (98)
+[2016.04.09-16.01.38:394][739]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2016.04.09-16.01.38:394][739]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2016.04.09-16.01.38:396][739]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (95)
+[2016.04.09-16.01.38:397][739]LogModuleManager: Shutting down and abandoning module AssetRegistry (94)
+[2016.04.09-16.01.38:604][739]LogModuleManager: Shutting down and abandoning module ContentBrowser (93)
+[2016.04.09-16.01.38:604][739]LogModuleManager: Shutting down and abandoning module Paper2DEditor (92)
+[2016.04.09-16.01.38:604][739]LogModuleManager: Shutting down and abandoning module UdpMessaging (91)
+[2016.04.09-16.01.38:704][739]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (90)
+[2016.04.09-16.01.38:704][739]LogModuleManager: Shutting down and abandoning module Paper2D (89)
+[2016.04.09-16.01.38:704][739]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (88)
+[2016.04.09-16.01.38:704][739]LogModuleManager: Shutting down and abandoning module Media (87)
+[2016.04.09-16.01.38:704][739]LogModuleManager: Shutting down and abandoning module WmfMedia (86)
+[2016.04.09-16.01.38:705][739]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.04.09-16.01.38:705][739]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.04.09-16.01.38:705][739]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.04.09-16.01.38:705][739]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.04.09-16.01.38:705][739]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.04.09-16.01.38:706][739]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.04.09-16.01.38:706][739]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.04.09-16.01.38:706][739]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.04.09-16.01.38:707][739]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.04.09-16.01.38:707][739]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.04.09-16.01.38:707][739]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.04.09-16.01.38:707][739]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.04.09-16.01.38:707][739]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.04.09-16.01.38:707][739]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.04.09-16.01.38:707][739]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.04.09-16.01.38:707][739]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.04.09-16.01.38:707][739]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.04.09-16.01.38:713][739]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.04.09-16.01.38:714][739]LogDerivedDataCache: Shutdown
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.04.09-16.01.38:714][739]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.09-16.01.38:715][739]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.09-16.01.39:716][739]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.09-16.01.39:716][739]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.09-16.01.39:716][739]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.09-16.01.39:716][739]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.09-16.01.39:716][739]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.09-16.01.39:716][739]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.09-16.01.39:716][739]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.09-16.01.39:719][739]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.09-16.01.39:719][739]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.09-16.01.39:719][739]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.09-16.01.39:719][739]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.09-16.01.39:719][739]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.09-16.01.39:719][739]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.09-16.01.39:719][739]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.09-16.01.39:719][739]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.09-16.01.39:719][739]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.09-16.01.39:719][739]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.09-16.01.39:720][739]LogExit: Exiting.
+[2016.04.09-16.01.39:734][739]Log file closed, 04/09/16 11:01:39
