@@ -1,0 +1,94 @@
+﻿Log file open, 04/09/16 11:52:45
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-986237086) SRandInit(-986237084).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.066124
+LogInit: Version: 4.11.1-2934540+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr  6 2016 02:14:16
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCLevel1 -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.04.09-16.52.45:611][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.09-16.52.45:611][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.09-16.52.45:614][  0]LogInit: Computer: CURTIS-PC
+[2016.04.09-16.52.45:614][  0]LogInit: User: Curtis
+[2016.04.09-16.52.45:614][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.04.09-16.52.45:614][  0]LogInit: High frequency timer resolution =2.336201 MHz
+[2016.04.09-16.52.45:614][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.09-16.52.45:614][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.09-16.52.45:614][  0]LogMemory: Process Physical Memory: 314.13 MB used, 314.13 MB peak
+[2016.04.09-16.52.45:614][  0]LogMemory: Process Virtual Memory: 316.73 MB used, 316.73 MB peak
+[2016.04.09-16.52.45:614][  0]LogMemory: Physical Memory: 4791.06 MB used, 8139.82 MB total
+[2016.04.09-16.52.45:614][  0]LogMemory: Virtual Memory: 620.69 MB used, 8388608.00 MB total
+[2016.04.09-16.52.45:646][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.09-16.52.46:037][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.09-16.52.46:080][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6870M' (Feature Level 11_0)
+[2016.04.09-16.52.46:080][  0]LogD3D11RHI:       1010MB of dedicated video memory, 0MB of dedicated system memory, and 3813MB of shared system memory, 1 output[s]
+[2016.04.09-16.52.46:084][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
+[2016.04.09-16.52.46:084][  0]LogD3D11RHI:       64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.04.09-16.52.46:084][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.09-16.52.46:089][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.09-16.52.46:089][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6870M
+[2016.04.09-16.52.46:089][  0]LogD3D11RHI:   Driver Version: 9.3.0.0 (internal 9.3.0.0)
+[2016.04.09-16.52.46:089][  0]LogD3D11RHI:      Driver Date: 10-25-2012
+[2016.04.09-16.52.46:089][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
+[2016.04.09-16.52.46:094][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.04.09-16.52.46:106][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/Intermediate/Shaders/WorkingDirectory/3084/).
+[2016.04.09-16.52.46:107][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Curtis/AppData/Local/Temp/UnrealShaderWorkingDir/AF15359142C928E55F18DC9BF230BCEE/'.
+[2016.04.09-16.52.46:107][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.09-16.52.47:091][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.09-16.52.47:095][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.09-16.52.47:099][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.09-16.52.47:103][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.09-16.52.47:107][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.09-16.52.47:110][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.09-16.52.47:113][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.09-16.52.47:115][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.09-16.52.47:118][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.09-16.52.47:121][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.09-16.52.47:124][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.09-16.52.47:130][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.09-16.52.47:130][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.09-16.52.47:130][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.09-16.52.47:145][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.09-16.52.47:148][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.09-16.52.47:151][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.09-16.52.47:154][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.09-16.52.47:157][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.09-16.52.47:157][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.09-16.52.47:220][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.09-16.52.47:269][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/Curtis/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.09-16.52.47:269][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Curtis/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.09-16.52.47:269][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.09-16.52.47:269][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.09-16.52.47:269][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Curtis/Documents/Unreal Projects/IceBox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.09-16.52.47:269][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.09-16.52.47:285][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.09-16.52.47:297][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Curtis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.09-16.52.47:488][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.09-16.52.47:493][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.09-16.52.47:494][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2016.04.09-16.52.47:628][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.09-16.52.47:628][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.09-16.52.47:628][  0]LogMeshUtilities: No distributed automatic mesh merging module 
